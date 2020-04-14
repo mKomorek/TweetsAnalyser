@@ -1,0 +1,44 @@
+﻿<Window x:Class="TweetsAnalyser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TweetsAnalyser" 
+        Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in tempor quam, sit amet convallis massa. Vestibulum fringilla ante ex, eu blandit risus lobortis mollis. Pellentesque ornare auctor ex vitae tristique. Curabitur pellentesque, dui quis posuere varius, turpis est placerat eros, eget euismod mi ipsum dictum lacus. Maecenas faucibus volutpat aliquet. Vivamus vitae dignissim felis. Quisque quis lacus lorem. Quisque convallis risus nec urna lobortis dictum. Ut eget velit aliquam, luctus ligula id, hendrerit odio. Proin ornare lectus elementum lacus maximus placerat quis in quam. Sed a eleifend neque. Nunc vel felis sit amet purus vulputate porta. In in est sed erat venenatis varius. Fusce iaculis est ac orci auctor convallis. Nulla consectetur semper consequat. Integer et laoreet elit.
+
+Vestibulum iaculis felis vel sapien pellentesque egestas. Donec viverra justo quis enim tincidunt, eu efficitur ex sollicitudin. Nunc elementum in augue quis lobortis. Morbi at turpis dolor. Sed nec varius risus, at hendrerit nunc. Maecenas commodo turpis eget tellus posuere efficitur. Aliquam eget massa augue. Cras non dui eros. Etiam mi risus, tempor ac rutrum ac, pretium a massa. Nunc condimentum vestibulum justo, eget consectetur urna vulputate in. Curabitur tristique ex in bibendum bibendum. Sed maximus bibendum lacus, vitae egestas velit volutpat at. Etiam ut neque convallis tortor tristique hendrerit. Quisque dignissim dolor sit amet turpis lacinia interdum.
+
+Proin iaculis mollis nibh at dignissim. Maecenas odio libero, egestas nec auctor at, lacinia in felis. Integer vel lacinia nulla, a porta massa. Nunc euismod fringilla nibh eu fringilla. Proin in rhoncus massa. Pellentesque sagittis, est at fermentum convallis, lacus dolor scelerisque nunc, at convallis ipsum urna quis odio. In congue lacus purus, sit amet laoreet risus faucibus quis. Quisque quis sapien eget augue commodo venenatis id sodales velit. Pellentesque sit amet libero non tellus suscipit lacinia.
+
+Nulla ullamcorper imperdiet dui non finibus. Donec et urna non arcu faucibus semper. Nam dui sapien, iaculis eu ultricies sed, ultrices eu ligula. Integer consequat, est a elementum tincidunt, eros nibh ullamcorper felis, non fringilla felis enim in enim. Duis rutrum lorem non lectus aliquet dignissim. Vestibulum in velit diam. Vestibulum felis nisl, cursus nec mauris non, iaculis consectetur dui.
+
+Phasellus odio tortor, bibendum commodo magna id, pellentesque eleifend lectus. Cras diam urna, suscipit vel turpis ac, elementum consequat nunc. Curabitur nec pretium purus. Aliquam auctor consequat tellus, quis imperdiet massa cursus sed. Donec volutpat convallis rutrum. Maecenas euismod a tellus nec commodo. Pellentesque vulputate odio vel orci sagittis, a viverra libero eleifend. Praesent sed mi leo. Pellentesque eget vehicula mauris. Aliquam efficitur nibh quis dignissim vestibulum. Vivamus pellentesque arcu quis convallis dapibus. Duis sed aliquam turpis, non sagittis ipsum. Sed ullamcorper mattis elit eget porta.
+
+Duis accumsan, eros vitae tincidunt laoreet, elit eros condimentum nulla, et malesuada ante purus et massa. Proin sed ipsum urna. Phasellus finibus odio at eros vestibulum, at lobortis sem porta. Pellentesque mauris sem, blandit sed ex a, gravida placerat ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut arcu hendrerit metus semper luctus. Nam nec dolor vitae nibh iaculis convallis. Curabitur pretium at odio in tristique. Etiam nec malesuada erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper dolor et consequat dictum.
+
+Duis sollicitudin, urna vitae efficitur finibus, libero massa faucibus dolor, vel tincidunt leo ipsum non leo. Aenean tempus eros rhoncus lorem gravida eleifend. Aenean at turpis aliquam, pulvinar dui at, accumsan ligula. Aenean iaculis efficitur nisl, blandit lacinia ligula finibus eget. Praesent ullamcorper mauris lorem, fringilla scelerisque odio lobortis quis. Sed tristique est sed tempus tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur interdum quam, ac dapibus nulla imperdiet nec. Pellentesque in mauris eget massa tempor pellentesque. Duis accumsan volutpat vestibulum. Sed maximus ligula quis magna interdum, in commodo metus tincidunt. Ut vel libero ultrices, efficitur est id, porttitor quam. Aliquam congue tellus ac felis dictum, vitae vestibulum felis luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Nullam at tincidunt leo. Fusce elementum vulputate elit, fringilla luctus velit feugiat in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tempor a justo eget bibendum. Donec a lacus ullamcorper, dapibus felis non, gravida felis. Ut bibendum, massa vel laoreet mattis, metus dui semper elit, ac dapibus arcu ipsum in mauris. Nulla cursus at tortor ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu urna est. Duis dapibus ante aliquet lorem consequat euismod.
+
+Integer quis placerat felis, quis gravida mauris. Donec vulputate, dui eu aliquam consectetur, eros purus viverra urna, vitae imperdiet eros dui non tortor. Vivamus maximus, mauris nec convallis sollicitudin, enim ex cursus lectus, nec porttitor massa dui sed nisi. Donec ut augue laoreet metus pulvinar placerat in sit amet dui. Nunc convallis imperdiet rhoncus. Integer gravida elit eget ligula bibendum, sed sollicitudin nunc sagittis. Morbi mi leo, consectetur quis mi quis, lobortis rutrum elit.
+
+Phasellus molestie leo turpis, sit amet varius leo sodales in. Duis egestas massa at est luctus, efficitur porta nulla porttitor. Proin imperdiet leo id ante lacinia sagittis sed quis tortor. Phasellus eget elit quis erat ultrices viverra vel id ex. Curabitur id enim tortor. Aenean lorem turpis, commodo nec vestibulum vel, mattis eget enim. Nullam ac velit et tortor maximus varius a et ex. consectetur massa semper ante vestibulum convallis. Vivamus ultricies, erat id elementum vestibulum, erat nulla dictum lorem, ac semper nisl augue nec lorem. Sed gravida libero eros, ac malesuada risus rutrum ac. Nam posuere urna id enim finibus laoreet.
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <DockPanel Grid.Column="1" Margin="10,20,10,20">
+            <StackPanel DockPanel.Dock="Top">
+                <Button Content="Przeglądarka Tweetów"/>
+                <Button Content="Zapisane" Margin="0,7,0,0"/>
+            </StackPanel>
+            <Button Content="Wyjdź z aplikacji" DockPanel.Dock="Bottom" VerticalAlignment="Bottom"/>
+        </DockPanel>
+    </Grid>
+</Window>
