@@ -29,7 +29,7 @@ namespace TwitterTests.Model
             get { return _twitterUser.ProfileImageUrl; }
         }
 
-        public TweetServiceModel GetTweetService
+        public TweetServiceModel TweetService
         {
             get { return _tweetService; }
         }

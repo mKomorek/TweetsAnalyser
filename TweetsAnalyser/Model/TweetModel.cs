@@ -5,18 +5,21 @@ using Tweetinvi;
 
 namespace TwitterTests.Model
 {
-    class TweetAppModel
+    public class TweetModel
     {
         private Tweetinvi.Models.IUser _tweetAuthor;
         private DateTime _tweetPublishedDate;
         private string _tweetFullText;
 
-        public TweetAppModel(Tweetinvi.Models.IUser tweetAuthor, DateTime tweetPublishedDate, string tweetFullText)
+        public TweetModel() { }
+        public TweetModel(Tweetinvi.Models.IUser tweetAuthor, DateTime tweetPublishedDate, string tweetFullText)
         {
             _tweetAuthor = tweetAuthor;
             _tweetPublishedDate = tweetPublishedDate;
             _tweetFullText = tweetFullText;
         }
+
+        public int Id { get; set; }
 
         public Tweetinvi.Models.IUser TweetAuthor
         {

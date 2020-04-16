@@ -8,12 +8,12 @@ namespace TwitterTests.Model
     class TweetServiceModel
     {
         private Tweetinvi.Models.IAuthenticatedUser _twitterUser;
-        private List<TweetAppModel> _tweets;
+        private List<TweetModel> _tweets;
 
         public TweetServiceModel(Tweetinvi.Models.IAuthenticatedUser twitterUser)
         {
             _twitterUser = twitterUser;
-            _tweets = new List<TweetAppModel>();
+            _tweets = new List<TweetModel>();
         }
 
         public void setHomeTimeLineTweets()
@@ -34,11 +34,11 @@ namespace TwitterTests.Model
         {
             foreach (var tweet in tweets)
             {
-                _tweets.Add(new TweetAppModel(tweet.CreatedBy, tweet.CreatedAt, tweet.FullText));
+                _tweets.Add(new TweetModel(tweet.CreatedBy, tweet.CreatedAt, tweet.FullText));
             }
         }
 
-        public List<TweetAppModel> Tweets
+        public List<TweetModel> Tweets
         {
             get { return _tweets; }
         }
