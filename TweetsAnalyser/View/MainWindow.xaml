@@ -1,0 +1,51 @@
+﻿<Window x:Class="TweetsAnalyser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TwitterTests.ViewModel"
+        Title="TweetsAnalyser" 
+        Height="800" Width="700">
+    <Window.DataContext>
+        <local:TweetServiceViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Main pannel starts here-->
+        <Frame  Grid.Column="1" Background="GhostWhite" BorderBrush="DodgerBlue" BorderThickness="1,1,0,1"/>
+        <Image  HorizontalAlignment="Left" Height="125" Width="125" Source="{Binding TwitterUser_ProfileImage_URL, Mode=OneWay}"/>
+        <StackPanel  Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <TextBlock Text="{Binding TwitterUser_ProfileName, Mode=OneWay}" FontWeight="Bold" FontSize="20"/>
+            <Label Content="Wyszukaj usera:"  Margin="0,30,0,0" HorizontalAlignment="Left" Padding="0,5,5,5"/>
+            <TextBox VerticalAlignment="Bottom" Text="e.g. PWr_Wroclaw" Foreground="LightGray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Width="157"/>
+        </StackPanel>
+        <!--Main pannel ends here-->
+
+        <!--Button pannel starts here-->
+        <Border Grid.Column="2" Grid.RowSpan="2" BorderBrush="DodgerBlue" BorderThickness="1,1,1,1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="LightCyan" Offset="0.0" />
+                    <GradientStop Color="LightBlue" Offset="0.5" />
+                    <GradientStop Color="DarkTurquoise" Offset="1.0" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <DockPanel Margin="10,20,10,20" >
+                <StackPanel DockPanel.Dock="Top">
+                    <Button Content="Przeglądarka Tweetów" FontSize="16" Padding="5"/>
+                    <Button Content="Zapisane" Margin="0,7,0,0" FontSize="16" Padding="5"/>
+                </StackPanel>
+                <Button Content="Wyjdź z aplikacji" DockPanel.Dock="Bottom" VerticalAlignment="Bottom" FontSize="16" Padding="5" Click="Close_app_button"/>
+                <Image Source="/Images/windows.png" Width="125" Height="125"/>
+            </DockPanel>
+        </Border>
+        <!--Button pannel ends here-->
+    </Grid>
+</Window>
