@@ -10,6 +10,7 @@ namespace TwitterTests.Model
         private Tweetinvi.Models.IUser _tweetAuthor;
         private DateTime _tweetPublishedDate;
         private string _tweetFullText;
+        private string _tweetAuthorImageURL;
 
         public TweetModel() { }
         public TweetModel(Tweetinvi.Models.IUser tweetAuthor, DateTime tweetPublishedDate, string tweetFullText)
@@ -17,6 +18,7 @@ namespace TwitterTests.Model
             _tweetAuthor = tweetAuthor;
             _tweetPublishedDate = tweetPublishedDate;
             _tweetFullText = tweetFullText;
+            _tweetAuthorImageURL = _tweetAuthor.ProfileImageUrl;
         }
 
         public int Id { get; set; }
@@ -37,6 +39,12 @@ namespace TwitterTests.Model
         {
             get { return _tweetFullText; }
             set { _tweetFullText = value;  }
+        }
+
+        public string TweetAuthorImageURL
+        {
+            get { return _tweetAuthorImageURL; }
+            set { _tweetAuthorImageURL = value; }
         }
     }
 }
