@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:TwitterTests.ViewModel"
         Title="TweetsAnalyser" 
-        Height="800" Width="700">
+        Height="800" Width="700"
+        Icon="/Images/twitter.ico">
     <Window.DataContext>
         <local:TweetServiceViewModel/>
     </Window.DataContext>
@@ -20,12 +21,21 @@
         
         <!--Main pannel starts here-->
         <Frame  Grid.Column="1" Background="GhostWhite" BorderBrush="DodgerBlue" BorderThickness="1,1,0,1"/>
-        <Image  HorizontalAlignment="Left" Height="125" Width="125" Source="{Binding TwitterUser_ProfileImage_URL, Mode=OneWay}"/>
+        <Image HorizontalAlignment="Left"  MinWidth="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Source="{Binding TwitterUser_ProfileImage_URL, Mode=OneWay}" Stretch="Fill"/>
         <StackPanel  Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,10">
-            <TextBlock Text="{Binding TwitterUser_ProfileName, Mode=OneWay}" FontWeight="Bold" FontSize="20"/>
-            <Label Content="Wyszukaj usera:"  Margin="0,30,0,0" HorizontalAlignment="Left" Padding="0,5,5,5"/>
+            <Label Content="Zalogowany jako:" HorizontalAlignment="Left" Padding="0,5,5,5"/>
+            <TextBlock Text="{Binding TwitterUser_ProfileName, Mode=OneWay}" FontWeight="Bold" FontSize="20" TextWrapping="Wrap"/>
+            <Label Content="Wyszukaj usera:"  Margin="0,30,0,0" HorizontalAlignment="Center"/>
             <TextBox VerticalAlignment="Bottom" Text="e.g. PWr_Wroclaw" Foreground="LightGray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Width="157"/>
         </StackPanel>
+        <ListBox ItemsSource="{Binding TwitterUser_TweetService_Tweets}" ItemTemplate="{StaticResource TweetItemTemplate}" Grid.Row="1" Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="BorderThickness" Value="0,2,0,0" />
+                    <Setter Property="BorderBrush" Value="Gray" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
         <!--Main pannel ends here-->
 
         <!--Button pannel starts here-->

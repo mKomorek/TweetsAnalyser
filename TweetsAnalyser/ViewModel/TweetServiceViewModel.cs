@@ -1,5 +1,6 @@
 ﻿using TwitterTests.Model;
 using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 
 namespace TwitterTests.ViewModel
@@ -13,6 +14,7 @@ namespace TwitterTests.ViewModel
         public TweetServiceViewModel()
         {
             twitterUser = new TwitterUserModel();
+            twitterUser.TweetService.setUserTimeLineTweets("StackOverflow");
             dataBaseService = new DataBaseServiceModel();
         }
         
@@ -23,6 +25,11 @@ namespace TwitterTests.ViewModel
         public string TwitterUser_ProfileImage_URL
         {
             get { return twitterUser.ProfileImageURL; }
+        }
+
+        public ObservableCollection<TweetModel> TwitterUser_TweetService_Tweets
+        {
+            get { return twitterUser.TweetService.Tweets; }
         }
 
         protected void OnPropertyChanged(string propertyName)
