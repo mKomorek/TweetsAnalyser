@@ -19,7 +19,6 @@ namespace TwitterTests.Model
 
         public void setHomeTimeLineTweets()
         {
-            _tweets.Clear();
             var homeLineTweets = _twitterUser.GetHomeTimeline(30);
             setTweetList(homeLineTweets);
         }
@@ -33,6 +32,7 @@ namespace TwitterTests.Model
 
         private void setTweetList(IEnumerable<Tweetinvi.Models.ITweet> tweets)
         {
+            _tweets.Clear();
             foreach (var tweet in tweets)
             {
                 _tweets.Add(new TweetModel(tweet.CreatedBy, tweet.CreatedAt, tweet.FullText));

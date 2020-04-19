@@ -3,12 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:TwitterTests.ViewModel"
         Title="TweetsAnalyser" 
-        Height="800" Width="700"
-        Icon="/Images/twitter.ico">
+        Height="900" Width="700"
+        Icon="/Images/twitter.ico"
+        MouseDown="Window_MouseDown">
     <Window.DataContext>
         <local:TweetServiceViewModel/>
     </Window.DataContext>
-    <Grid>
+    <Grid Focusable="True" x:Name="grid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
@@ -18,16 +19,29 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
-        <!--Main pannel starts here-->
+
+        <!--User pannel starts here-->
         <Frame  Grid.Column="1" Background="GhostWhite" BorderBrush="DodgerBlue" BorderThickness="1,1,0,1"/>
         <Image HorizontalAlignment="Left"  MinWidth="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Source="{Binding TwitterUser_ProfileImage_URL, Mode=OneWay}" Stretch="Fill"/>
         <StackPanel  Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,10">
             <Label Content="Zalogowany jako:" HorizontalAlignment="Left" Padding="0,5,5,5"/>
             <TextBlock Text="{Binding TwitterUser_ProfileName, Mode=OneWay}" FontWeight="Bold" FontSize="20" TextWrapping="Wrap"/>
-            <Label Content="Wyszukaj usera:"  Margin="0,30,0,0" HorizontalAlignment="Center"/>
-            <TextBox VerticalAlignment="Bottom" Text="e.g. PWr_Wroclaw" Foreground="LightGray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Width="157"/>
+            <Label Content="Pobierz własną tablicę:"  Margin="0,30,0,0" HorizontalAlignment="Left" Padding="0,5,5,0"/>
+            <Button Content="Pobierz" Margin="0,3,0,0" Padding="0" Command="{Binding OwnTimeline_Button_Click}"/>
+            <Label Content="Wyszukaj usera:"  Margin="0,5,0,0" HorizontalAlignment="Left" Padding="0,0,5,5"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox  Width="157" Height="{Binding ElementName=Search_Button, Path=Height}" Text="{Binding User_To_Search, TargetNullValue='e.g. StackOverflow', UpdateSourceTrigger=PropertyChanged}" 
+                         VerticalAlignment="Bottom" Foreground="LightGray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus">
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Return" Command="{Binding Search_Button_Click}"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+                <Button Padding="2,0,2,0" Content="Szukaj" Margin="8,0,0,0" Command="{Binding Search_Button_Click}"/>
+            </StackPanel>
         </StackPanel>
+        <!--User pannel ends here-->
+
+        <!--Tweet pannel starts here-->
         <ListBox ItemsSource="{Binding TwitterUser_TweetService_Tweets}" ItemTemplate="{StaticResource TweetItemTemplate}" Grid.Row="1" Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
@@ -36,7 +50,7 @@
                 </Style>
             </ListBox.ItemContainerStyle>
         </ListBox>
-        <!--Main pannel ends here-->
+        <!--Tweet pannel ends here-->
 
         <!--Button pannel starts here-->
         <Border Grid.Column="2" Grid.RowSpan="2" BorderBrush="DodgerBlue" BorderThickness="1,1,1,1">

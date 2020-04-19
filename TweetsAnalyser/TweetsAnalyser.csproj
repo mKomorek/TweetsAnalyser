@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\error.ico" />
     <None Remove="Images\twitter.ico" />
     <None Remove="Images\windows.png" />
   </ItemGroup>
@@ -17,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\error.ico" />
     <Resource Include="Images\twitter.ico" />
     <Resource Include="Images\windows.png" />
   </ItemGroup>
