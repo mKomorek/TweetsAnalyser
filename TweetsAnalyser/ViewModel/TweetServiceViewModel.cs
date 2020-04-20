@@ -10,16 +10,20 @@ namespace TwitterTests.ViewModel
 {
     class TweetServiceViewModel : INotifyPropertyChanged
     {
+        private int listIndex;
         public TwitterUserModel twitterUser;
         public DataBaseServiceModel dataBaseService;
-        private string _userToSearch;
+        private ObservableCollection<TweetModel> tweetCollection;
+        private string _userToSearch, deleteAddButtonContent = "Zapisz Tweeta";
         public event PropertyChangedEventHandler PropertyChanged;
-        private ICommand _searchButtonClick, _OwnTimeline_Button_Click;
+        private ICommand _searchButtonClick, _OwnTimeline_Button_Click, _goToSavedButtonClick, _gotToTweetsButtonClick, _addToDb;
+        private Visibility userPanelVisibility;
 
         public TweetServiceViewModel()
         {
             twitterUser = new TwitterUserModel();
             twitterUser.TweetService.setUserTimeLineTweets("PWr_Wroclaw");
+            tweetCollection = twitterUser.TweetService.Tweets;
             dataBaseService = new DataBaseServiceModel();
         }
 
@@ -27,8 +31,49 @@ namespace TwitterTests.ViewModel
         {
             get { return twitterUser.ProfileName; }
         }
+        public int SelectedIndex
+        {
+            get
+            {
+                return listIndex;
+            }
 
-         public string User_To_Search
+            set
+            {
+                listIndex = value;
+            }
+
+        }
+        public string DeleteAddButtonContent
+        {
+            get
+            {
+                return deleteAddButtonContent;
+            }
+
+            set
+            {
+                deleteAddButtonContent = value;
+                OnPropertyChanged("DeleteAddButtonContent");
+            }
+
+        }
+
+        public Visibility User_Panel_Visibility
+        {
+            get { return userPanelVisibility; }
+
+            set
+            {
+                if (userPanelVisibility != value)
+                {
+                    userPanelVisibility = value;
+                    OnPropertyChanged("User_Panel_Visibility");
+                }
+            }
+        }
+
+        public string User_To_Search
         {
             get { return _userToSearch; }
             set
@@ -46,17 +91,29 @@ namespace TwitterTests.ViewModel
             get { return twitterUser.ProfileImageURL; }
         }
 
-        public ObservableCollection<TweetModel> TwitterUser_TweetService_Tweets
+        public ObservableCollection<TweetModel> Tweet_Collection
         {
-            get { return twitterUser.TweetService.Tweets; }
+            get { return tweetCollection; }
+            set { tweetCollection = value; OnPropertyChanged("Tweet_Collection"); }
         }
-
+        public ICommand AddToDB
+        {
+            get { return _addToDb ?? (_addToDb = new CommandHandler(() => AddToDBButton(), () => CanExecute)); }
+        }
         public ICommand Search_Button_Click
         {
             get { return _searchButtonClick ?? (_searchButtonClick = new CommandHandler(() => SearchButton(), () => CanExecute)); }
         }
+        public ICommand Go_To_Tweets_Button_Click
+        {
+            get { return _gotToTweetsButtonClick ?? (_gotToTweetsButtonClick = new CommandHandler(() => GoToTweetsButton(), () => CanExecute)); }
+        }
+        public ICommand Go_To_Save_Button_Click
+        {
+            get { return _goToSavedButtonClick ?? (_goToSavedButtonClick = new CommandHandler(() => GoToSavedButton(), () => CanExecute)); }
+        }
 
-         public ICommand OwnTimeline_Button_Click
+        public ICommand OwnTimeline_Button_Click
         {
             get { return _OwnTimeline_Button_Click ?? (_OwnTimeline_Button_Click = new CommandHandler(() => OwnTimelineButton(), () => CanExecute)); }
         }
@@ -80,10 +137,26 @@ namespace TwitterTests.ViewModel
                
             }
         }
-
         public void OwnTimelineButton()
         {
             twitterUser.TweetService.setHomeTimeLineTweets();
+        }
+        public void AddToDBButton()
+        {
+            dataBaseService.add(Tweet_Collection[SelectedIndex]);
+        }
+        private void GoToSavedButton()
+        {
+            DeleteAddButtonContent = "Usuń Tweeta";
+            Tweet_Collection = dataBaseService.getAllFavoriteTweets();
+            User_Panel_Visibility = Visibility.Hidden;
+        }
+
+        private void GoToTweetsButton()
+        {
+            DeleteAddButtonContent = "Zapisz Tweeta";
+            Tweet_Collection = twitterUser.TweetService.Tweets;
+            User_Panel_Visibility = Visibility.Visible;
         }
 
         protected void OnPropertyChanged(string propertyName)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections.ObjectModel;
 
 namespace TwitterTests.Model
 {
@@ -27,9 +28,9 @@ namespace TwitterTests.Model
             _dataBaseModel.FavoriteTweets.RemoveRange(_dataBaseModel.FavoriteTweets);
         }
 
-        public List<TweetModel> getAllFavoriteTweets()
+        public ObservableCollection<TweetModel> getAllFavoriteTweets()
         {
-            List<TweetModel> tweets = new List<TweetModel>();
+            ObservableCollection<TweetModel> tweets = new ObservableCollection<TweetModel>();
             foreach(var tweet in _dataBaseModel.FavoriteTweets)
             {
                 tweets.Add(tweet);
