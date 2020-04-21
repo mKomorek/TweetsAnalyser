@@ -44,7 +44,7 @@
         <!--User pannel ends here-->
 
         <!--Tweet pannel starts here-->
-        <ListBox SelectedIndex="{Binding SelectedIndex, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding Tweet_Collection}" ItemTemplate="{StaticResource TweetItemTemplate}" Grid.Row="1" Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListBox SelectedItem="{Binding SelectedTweet, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding Tweet_Collection}" ItemTemplate="{StaticResource TweetItemTemplate}" Grid.Row="1" Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
                     <Setter Property="BorderThickness" Value="0,2,0,0" />
@@ -67,7 +67,7 @@
                 <StackPanel DockPanel.Dock="Top">
                     <Button Content="Przeglądarka Tweetów" FontSize="16" Padding="5" Command="{Binding Go_To_Tweets_Button_Click}"/>
                     <Button Content="Zapisane" Margin="0,7,0,0" FontSize="16" Padding="5" Command="{Binding Go_To_Save_Button_Click}"/>
-                    <Button Content="{Binding DeleteAddButtonContent}" Padding="5" FontSize="16" Margin="0,30,0,0" Command="{Binding AddToDB}"/>
+                    <Button Content="{Binding DeleteAddButtonContent}" Padding="5" FontSize="16" Margin="0,30,0,0" Command="{Binding AddDeleteDB}"/>
                 </StackPanel>
                 <Button Content="Wyjdź z aplikacji" DockPanel.Dock="Bottom" VerticalAlignment="Bottom" FontSize="16" Padding="5" Click="Close_app_button"/>
                 <Image Source="/Images/windows.png" Width="125" Height="125"/>
