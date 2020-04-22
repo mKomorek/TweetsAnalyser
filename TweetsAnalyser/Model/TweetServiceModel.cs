@@ -1,20 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Tweetinvi;
 using System.Collections.ObjectModel;
 
-namespace TwitterTests.Model
+namespace TweetsAnalyser.Model
 {
     class TweetServiceModel
     {
         private Tweetinvi.Models.IAuthenticatedUser _twitterUser;
-        private ObservableCollection<TweetModel> _tweets;
 
         public TweetServiceModel(Tweetinvi.Models.IAuthenticatedUser twitterUser)
         {
             _twitterUser = twitterUser;
-            _tweets = new ObservableCollection<TweetModel>();
+            Tweets = new ObservableCollection<TweetModel>();
         }
 
         public void setHomeTimeLineTweets()
@@ -32,16 +29,13 @@ namespace TwitterTests.Model
 
         private void setTweetList(IEnumerable<Tweetinvi.Models.ITweet> tweets)
         {
-            _tweets.Clear();
+            Tweets.Clear();
             foreach (var tweet in tweets)
             {
-                _tweets.Add(new TweetModel(tweet.CreatedBy, tweet.CreatedAt, tweet.FullText));
+                Tweets.Add(new TweetModel(tweet.CreatedBy, tweet.CreatedAt, tweet.FullText));
             }
         }
 
-        public ObservableCollection<TweetModel> Tweets
-        {
-            get { return _tweets; }
-        }
+        public ObservableCollection<TweetModel> Tweets { get; }
     }
 }

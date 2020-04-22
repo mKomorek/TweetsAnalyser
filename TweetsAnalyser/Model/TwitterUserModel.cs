@@ -1,11 +1,10 @@
 ﻿using Tweetinvi;
 
-namespace TwitterTests.Model
+namespace TweetsAnalyser.Model
 {   
     class TwitterUserModel
     {
         private Tweetinvi.Models.IAuthenticatedUser _twitterUser;
-        private TweetServiceModel _tweetService;
 
         public TwitterUserModel()
         {
@@ -13,22 +12,19 @@ namespace TwitterTests.Model
             Auth.SetUserCredentials("AzwaBl0U35AgAX9jJ83xigP2M", "Fs2ghuwr2OSqzmOgmZyLblXOx1B0hw06k1yrEjtNALW5Z5tCry", 
                 "1247976477238362118-XXr2crv5aO9bjLaaC82IIiu5CF5UGC", "Zu5kS8MhAowOudyBmbym1HFHyqQJUvyDLmTpGKzpJ36KN");
             _twitterUser = User.GetAuthenticatedUser();
-            _tweetService = new TweetServiceModel(_twitterUser);
+            TweetService = new TweetServiceModel(_twitterUser);
         }
 
         public string ProfileName
         {
             get { return _twitterUser.Name; }
-        }
+        } 
 
         public string ProfileImageURL
         {
             get { return _twitterUser.ProfileImageUrl; }
         }
 
-        public TweetServiceModel TweetService
-        {
-            get { return _tweetService; }
-        }
+        public TweetServiceModel TweetService { get; }
     }
 }
