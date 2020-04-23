@@ -48,7 +48,7 @@
         </member>
         <member name="P:TweetsAnalyser.ViewModel.MainWindowViewModel.SelectedTweet">
             <summary>
-            Sets the TweetModel property to TweetModel object which is currently selected in the ListBox tweet scrooler.
+            Sets the SelectedTweet property to TweetModel object which is currently selected in the ListBox tweet scroller.
             Please refer the View/MainWindow.xaml/MainListBox.
             </summary>
         </member>
@@ -86,8 +86,8 @@
             <summary>
             Binds SearchButton to proper function.
             Please refer the View/MainWindow.xaml/SearchButton.
-            <see cref="M:TweetsAnalyser.ViewModel.MainWindowViewModel.SearchButton"/>
             <see cref="T:TweetsAnalyser.ViewModel.CommandHandler"/>
+            <see cref="M:TweetsAnalyser.ViewModel.MainWindowViewModel.SearchButton"/>
             </summary>
         </member>
         <member name="P:TweetsAnalyser.ViewModel.MainWindowViewModel.Go_To_Tweets_Button_Click">
@@ -117,7 +117,7 @@
         <member name="M:TweetsAnalyser.ViewModel.MainWindowViewModel.SearchButton">
             <summary>
             Tries to pull and save <c>User_To_Serach</c> timeline from API. If any exception is thrown
-            error dialog is shown.
+            error dialog pops up.
             <see cref="T:TweetsAnalyser.View.UserNotFoundDialog"/>
             <see cref="M:TweetsAnalyser.Model.TweetServiceModel.setUserTimeLineTweets(System.String)"/>
             </summary>
@@ -146,7 +146,7 @@
         </member>
         <member name="P:TweetsAnalyser.ViewModel.MainWindowViewModel.DeleteAddButtonContent">
             <summary>
-            Gets or sets the content of MultiButton.
+            Gets and sets the content of MultiButton.
             Please refer the View/MainWindow.xaml/MultiButton.
             </summary>
         </member>
@@ -172,7 +172,7 @@
         </member>
         <member name="M:TweetsAnalyser.ViewModel.MainWindowViewModel.OnPropertyChanged(System.String)">
             <summary>
-            Triggers the property changed event. Every interested party will be notified.
+            Triggers the property-changed event. Every interested party will be notified.
             </summary>
         </member>
         <member name="T:TweetsAnalyser.ViewModel.CommandHandler">
@@ -182,19 +182,19 @@
         </member>
         <member name="M:TweetsAnalyser.ViewModel.CommandHandler.#ctor(System.Action,System.Func{System.Boolean})">
             <summary>
-            Creates instance of the command handler
+            Creates instance of the command handler.
             </summary>
             <param name="action">Action to be executed by the command</param>
             <param name="canExecute">A bolean property to containing current permissions to execute the command</param>
         </member>
         <member name="E:TweetsAnalyser.ViewModel.CommandHandler.CanExecuteChanged">
             <summary>
-            Wires CanExecuteChanged event 
+            Wires CanExecuteChanged event.
             </summary>
         </member>
         <member name="M:TweetsAnalyser.ViewModel.CommandHandler.CanExecute(System.Object)">
             <summary>
-            Forcess checking if execute is allowed
+            Forces checking if execute is allowed.
             </summary>
         </member>
         <member name="M:TweetsAnalyser.ViewModel.CommandHandler.Execute(System.Object)">
@@ -213,7 +213,7 @@
         </member>
         <member name="M:TweetsAnalyser.MainWindow.#ctor">
             <summary>
-            Initalizes the window (forces it to appear on the screen)
+            Initalizes the window (forces it to appear on the screen).
             </summary>
         </member>
         <member name="M:TweetsAnalyser.MainWindow.Close_app_button(System.Object,System.Windows.RoutedEventArgs)">
@@ -236,6 +236,8 @@
         <member name="M:TweetsAnalyser.MainWindow.Window_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
             <summary>
             Sets the MouseDown event of the main window.
+            If mouse will be clicked, the grid member will be focued.
+            <see cref="F:TweetsAnalyser.MainWindow.grid"/>
             </summary>
         </member>
         <member name="M:TweetsAnalyser.MainWindow.InitializeComponent">
@@ -254,7 +256,7 @@
         </member>
         <member name="M:TweetsAnalyser.View.UserNotFoundDialog.#ctor">
             <summary>
-            Initalizes the window (forces it to appear on the screen)
+            Initalizes the window (forces it to appear on the screen).
             </summary>
         </member>
         <member name="M:TweetsAnalyser.View.UserNotFoundDialog.Close_Click(System.Object,System.Windows.RoutedEventArgs)">
@@ -265,7 +267,7 @@
         <member name="M:TweetsAnalyser.View.UserNotFoundDialog.Window_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
             <summary>
             Method which is wired to the dialog' keydown event.
-            If enter key was hit then the dialog is closed.
+            If enter key was hit then the dialog will be closed.
             </summary>
         </member>
         <member name="M:TweetsAnalyser.View.UserNotFoundDialog.InitializeComponent">

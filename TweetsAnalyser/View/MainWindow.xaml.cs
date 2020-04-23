@@ -12,7 +12,7 @@ namespace TweetsAnalyser
     public partial class MainWindow : Window
     {
         /// <summary>
-        /// Initalizes the window (forces it to appear on the screen)
+        /// Initalizes the window (forces it to appear on the screen).
         /// </summary>
         public MainWindow()
         {
@@ -56,6 +56,8 @@ namespace TweetsAnalyser
 
         /// <summary>
         /// Sets the MouseDown event of the main window.
+        /// If mouse will be clicked, the grid member will be focued.
+        /// <see cref="grid"/>
         /// </summary>
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {

@@ -52,7 +52,7 @@ namespace TweetsAnalyser.ViewModel
         }
 
         /// <summary>
-        /// Sets the TweetModel property to TweetModel object which is currently selected in the ListBox tweet scrooler.
+        /// Sets the SelectedTweet property to TweetModel object which is currently selected in the ListBox tweet scroller.
         /// Please refer the View/MainWindow.xaml/MainListBox.
         /// </summary>
         public TweetModel SelectedTweet {get; set;}
@@ -119,8 +119,8 @@ namespace TweetsAnalyser.ViewModel
         /// <summary>
         /// Binds SearchButton to proper function.
         /// Please refer the View/MainWindow.xaml/SearchButton.
-        /// <see cref="SearchButton"/>
         /// <see cref="CommandHandler"/>
+        /// <see cref="SearchButton"/>
         /// </summary>
         public ICommand Search_Button_Click
         {
@@ -162,7 +162,7 @@ namespace TweetsAnalyser.ViewModel
 
         /// <summary>
         /// Tries to pull and save <c>User_To_Serach</c> timeline from API. If any exception is thrown
-        /// error dialog is shown.
+        /// error dialog pops up.
         /// <see cref="View.UserNotFoundDialog"/>
         /// <see cref="Model.TweetServiceModel.setUserTimeLineTweets(string)"/>
         /// </summary>
@@ -219,7 +219,7 @@ namespace TweetsAnalyser.ViewModel
         }
 
         /// <summary>
-        /// Gets or sets the content of MultiButton.
+        /// Gets and sets the content of MultiButton.
         /// Please refer the View/MainWindow.xaml/MultiButton.
         /// </summary>
         public string DeleteAddButtonContent
@@ -262,7 +262,7 @@ namespace TweetsAnalyser.ViewModel
         //****                    ****//
 
         /// <summary>
-        /// Triggers the property changed event. Every interested party will be notified.
+        /// Triggers the property-changed event. Every interested party will be notified.
         /// </summary>
         protected void OnPropertyChanged(string propertyName)
         {
@@ -279,7 +279,7 @@ namespace TweetsAnalyser.ViewModel
         private Func<bool> _canExecute;
 
         /// <summary>
-        /// Creates instance of the command handler
+        /// Creates instance of the command handler.
         /// </summary>
         /// <param name="action">Action to be executed by the command</param>
         /// <param name="canExecute">A bolean property to containing current permissions to execute the command</param>
@@ -290,7 +290,7 @@ namespace TweetsAnalyser.ViewModel
         }
 
         /// <summary>
-        /// Wires CanExecuteChanged event 
+        /// Wires CanExecuteChanged event.
         /// </summary>
         public event EventHandler CanExecuteChanged
         {
@@ -299,7 +299,7 @@ namespace TweetsAnalyser.ViewModel
         }
 
         /// <summary>
-        /// Forcess checking if execute is allowed
+        /// Forces checking if execute is allowed.
         /// </summary>
         public bool CanExecute(object parameter)
         {
