@@ -22,6 +22,155 @@
             Application Entry Point.
             </summary>
         </member>
+        <member name="T:TweetsAnalyser.Model.DataBaseModel">
+            <summary>
+            The class creates a db context to support the database.
+            </summary>
+        </member>
+        <member name="T:TweetsAnalyser.Model.DataBaseServiceModel">
+            <summary>
+            The class enables database management.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.DataBaseServiceModel.#ctor">
+            <summary>
+            A constructor who creates a new dbcontext to support the database.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.DataBaseServiceModel.add(TweetsAnalyser.Model.TweetModel)">
+            <summary>
+            Adds the elements given as an argument to the database.
+            </summary>
+            <param name="tweet"></param>
+        </member>
+        <member name="M:TweetsAnalyser.Model.DataBaseServiceModel.remove(TweetsAnalyser.Model.TweetModel)">
+            <summary>
+            Removes the element supplied as an argument from the database.
+            </summary>
+            <param name="tweet"></param>
+        </member>
+        <member name="M:TweetsAnalyser.Model.DataBaseServiceModel.clear">
+            <summary>
+            Removes all items from the database.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.DataBaseServiceModel.getAllFavoriteTweets">
+            <summary>
+            Retrieves all saved tweets from the database and returns a collection of objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TweetsAnalyser.Model.TweetModel">
+            <summary>
+            A class that supports a single tweet.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetModel.#ctor">
+            <summary>
+            Nonparametric constructor.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetModel.#ctor(Tweetinvi.Models.IUser,System.DateTime,System.String)">
+            <summary>
+            The parametric constructor initializes components with the values given as function arguments.
+            </summary>
+            <param name="tweetAuthor"></param>
+            <param name="tweetPublishedDate"></param>
+            <param name="tweetFullText"></param>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetModel.Id">
+            <summary>
+            Tweet ID getter and setter.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetModel.TweetAuthor">
+            <summary>
+            Tweet author getter and setter.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetModel.TweetPublishedDate">
+            <summary>
+            Tweet published date getter and setter.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetModel.TweetFullString">
+            <summary>
+            Tweet full text getter and setter.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetModel.TweetAuthorImageURL">
+            <summary>
+            Tweet author image URL getter and setter.
+            </summary>
+        </member>
+        <member name="T:TweetsAnalyser.Model.TweetServiceModel">
+            <summary>
+            A class that supports tweet management.
+            </summary>
+        </member>
+        <member name="F:TweetsAnalyser.Model.TweetServiceModel._twitterUser">
+            <summary>
+            A private object that stores information about the currently logged in user
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetServiceModel.#ctor(Tweetinvi.Models.IAuthenticatedUser)">
+            <summary>
+            The parametric constructor initializes components with the values given as 
+            function arguments and create object that contain tweets.
+            </summary>
+            <param name="twitterUser"></param>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetServiceModel.setHomeTimeLineTweets">
+            <summary>
+            The method retrieves 30 last tweets from the logged-in user's table from twitter 
+            Twitter service and assigns them to a private class variable.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetServiceModel.setUserTimeLineTweets(System.String)">
+            <summary>
+            The method retrieves the last 30 tweets from the profile specified in the function 
+            argument and assigns them to a private class variable.
+            </summary>
+            <param name="userName"></param>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TweetServiceModel.setTweetList(System.Collections.Generic.IEnumerable{Tweetinvi.Models.ITweet})">
+            <summary>
+            the method adds to the private variable of the class all elements included in the 
+            list given as the function argument.
+            </summary>
+            <param name="tweets"></param>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TweetServiceModel.Tweets">
+            <summary>
+            Returns a list of tweets
+            </summary>
+        </member>
+        <member name="T:TweetsAnalyser.Model.TwitterUserModel">
+            <summary>
+            A class that supports a twitter user.
+            </summary>
+        </member>
+        <member name="M:TweetsAnalyser.Model.TwitterUserModel.#ctor">
+            <summary>
+            Nonparametric constructor. Performs user authentication.
+            Create instance of user and instance og TweetServiceModel.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TwitterUserModel.ProfileName">
+            <summary>
+            Profile name getter, return user profile name.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TwitterUserModel.ProfileImageURL">
+            <summary>
+            Profile image URL getter, return user profile image URL.
+            </summary>
+        </member>
+        <member name="P:TweetsAnalyser.Model.TwitterUserModel.TweetService">
+            <summary>
+            TwitterServiceModel getter, return TwitterServiceModel instance.
+            </summary>
+        </member>
         <member name="T:TweetsAnalyser.ViewModel.MainWindowViewModel">
             <summary>
             ViewModel of a MainWindow View. This is one and only ViewModel in the app.

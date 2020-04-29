@@ -7,7 +7,7 @@ namespace TweetsAnalyser.Model
     /// <summary>
     /// A class that supports tweet management.
     /// </summary>
-    class TweetServiceModel
+    public class TweetServiceModel
     {
         /// <summary>
         /// A private object that stores information about the currently logged in user
