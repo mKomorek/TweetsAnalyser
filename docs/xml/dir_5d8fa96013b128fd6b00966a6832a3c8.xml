@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_5d8fa96013b128fd6b00966a6832a3c8" kind="dir">
+    <compoundname>TweetsAnalyser/Model</compoundname>
+    <innerfile refid="_data_base_model_8cs">DataBaseModel.cs</innerfile>
+    <innerfile refid="_data_base_service_model_8cs">DataBaseServiceModel.cs</innerfile>
+    <innerfile refid="_tweet_model_8cs">TweetModel.cs</innerfile>
+    <innerfile refid="_tweet_service_model_8cs">TweetServiceModel.cs</innerfile>
+    <innerfile refid="_twitter_user_model_8cs">TwitterUserModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/"/>
+  </compounddef>
+</doxygen>

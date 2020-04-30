@@ -1,0 +1,99 @@
+\hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model}{}\doxysection{Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model Class Reference}
+\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model}\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+
+
+The class enables database management.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a4787a3e2769fbea47fe2a2bce5499b01}{Data\+Base\+Service\+Model}} ()
+\begin{DoxyCompactList}\small\item\em A constructor who creates a new dbcontext to support the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a6d1158403b4fe215ed76f5857c94b113}{add}} (\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} tweet)
+\begin{DoxyCompactList}\small\item\em Adds the elements given as an argument to the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_af4fe9c27f02532d2d540f021f6ea0d85}{remove}} (\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} tweet)
+\begin{DoxyCompactList}\small\item\em Removes the element supplied as an argument from the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a35ae332b1a877a95649cd6f1096e3cd4}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Removes all items from the database. \end{DoxyCompactList}\item 
+Observable\+Collection$<$ \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} $>$ \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a1270521ed6ae5c5822ba7c1ccf2dd622}{get\+All\+Favorite\+Tweets}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves all saved tweets from the database and returns a collection of objects \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The class enables database management. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a4787a3e2769fbea47fe2a2bce5499b01}\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a4787a3e2769fbea47fe2a2bce5499b01}} 
+\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}!DataBaseServiceModel@{DataBaseServiceModel}}
+\index{DataBaseServiceModel@{DataBaseServiceModel}!TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+\doxysubsubsection{\texorpdfstring{DataBaseServiceModel()}{DataBaseServiceModel()}}
+{\footnotesize\ttfamily Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model.\+Data\+Base\+Service\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A constructor who creates a new dbcontext to support the database. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a6d1158403b4fe215ed76f5857c94b113}\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a6d1158403b4fe215ed76f5857c94b113}} 
+\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}!add@{add}}
+\index{add@{add}!TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}}}]{tweet }\end{DoxyParamCaption})}
+
+
+
+Adds the elements given as an argument to the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tweet} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a35ae332b1a877a95649cd6f1096e3cd4}\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a35ae332b1a877a95649cd6f1096e3cd4}} 
+\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}!clear@{clear}}
+\index{clear@{clear}!TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Removes all items from the database. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a1270521ed6ae5c5822ba7c1ccf2dd622}\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a1270521ed6ae5c5822ba7c1ccf2dd622}} 
+\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}!getAllFavoriteTweets@{getAllFavoriteTweets}}
+\index{getAllFavoriteTweets@{getAllFavoriteTweets}!TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+\doxysubsubsection{\texorpdfstring{getAllFavoriteTweets()}{getAllFavoriteTweets()}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}}$>$ Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model.\+get\+All\+Favorite\+Tweets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves all saved tweets from the database and returns a collection of objects 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_model_1_1_data_base_service_model_af4fe9c27f02532d2d540f021f6ea0d85}\label{class_tweets_analyser_1_1_model_1_1_data_base_service_model_af4fe9c27f02532d2d540f021f6ea0d85}} 
+\index{TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}!remove@{remove}}
+\index{remove@{remove}!TweetsAnalyser.Model.DataBaseServiceModel@{TweetsAnalyser.Model.DataBaseServiceModel}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+Model.\+Data\+Base\+Service\+Model.\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}}}]{tweet }\end{DoxyParamCaption})}
+
+
+
+Removes the element supplied as an argument from the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tweet} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Tweets\+Analyser/\+Model/\mbox{\hyperlink{_data_base_service_model_8cs}{Data\+Base\+Service\+Model.\+cs}}\end{DoxyCompactItemize}

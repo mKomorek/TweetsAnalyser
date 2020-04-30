@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_42baadc4029efe8499c053b55afb4d5f" kind="dir">
+    <compoundname>TweetsAnalyser/View</compoundname>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_user_not_found_dialog_8xaml_8cs">UserNotFoundDialog.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/View/"/>
+  </compounddef>
+</doxygen>

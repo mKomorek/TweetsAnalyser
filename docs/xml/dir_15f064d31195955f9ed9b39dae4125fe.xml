@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_15f064d31195955f9ed9b39dae4125fe" kind="dir">
+    <compoundname>TweetAnalyserTests</compoundname>
+    <innerdir refid="dir_5b2b54d3034c53f88782b1cdc655c7cd">TweetAnalyserTests/obj</innerdir>
+    <innerfile refid="_tweet_model_test_8cs">TweetModelTest.cs</innerfile>
+    <innerfile refid="_tweet_service_test_8cs">TweetServiceTest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetAnalyserTests/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_a8cc374fe063313fc2018540451908de" kind="dir">
+    <compoundname>TweetsAnalyser/obj/Debug</compoundname>
+    <innerdir refid="dir_6ddd06b6846def0d1b3be2bd9aaca642">TweetsAnalyser/obj/Debug/netcoreapp3.1</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/obj/Debug/"/>
+  </compounddef>
+</doxygen>

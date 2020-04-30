@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_tweets_analyser_1_1_view_model" kind="namespace" language="C#">
+    <compoundname>TweetsAnalyser::ViewModel</compoundname>
+    <innerclass refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" prot="public">TweetsAnalyser::ViewModel::CommandHandler</innerclass>
+    <innerclass refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model" prot="public">TweetsAnalyser::ViewModel::MainWindowViewModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

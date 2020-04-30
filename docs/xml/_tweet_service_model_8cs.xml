@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_tweet_service_model_8cs" kind="file" language="C#">
+    <compoundname>TweetServiceModel.cs</compoundname>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" prot="public">TweetsAnalyser::Model::TweetServiceModel</innerclass>
+    <innernamespace refid="namespace_tweets_analyser">TweetsAnalyser</innernamespace>
+    <innernamespace refid="namespace_tweets_analyser_1_1_model">TweetsAnalyser::Model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Tweetinvi;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.ObjectModel;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_tweets_analyser_1_1_model" kindref="compound">TweetsAnalyser.Model</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kindref="compound">TweetServiceModel</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Tweetinvi.Models.IAuthenticatedUser<sp/>_twitterUser;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1afa849f3f4d490e2a7e0d2c0451fe100b" kindref="member">TweetServiceModel</ref>(Tweetinvi.Models.IAuthenticatedUser<sp/>twitterUser)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_twitterUser<sp/>=<sp/>twitterUser;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" kindref="member">Tweets</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ObservableCollection&lt;TweetModel&gt;();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a8370e74ed9f9440cb92609a9d6c909d0" kindref="member">setHomeTimeLineTweets</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>homeLineTweets<sp/>=<sp/>_twitterUser.GetHomeTimeline(30);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setTweetList(homeLineTweets);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a07b9bd7a5a14b6381314001de1d5afd3" kindref="member">setUserTimeLineTweets</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>userName)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>user<sp/>=<sp/>User.GetUserFromScreenName(userName);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>userLineTweets<sp/>=<sp/>Timeline.GetUserTimeline(user);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setTweetList(userLineTweets);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setTweetList(IEnumerable&lt;Tweetinvi.Models.ITweet&gt;<sp/>tweets)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" kindref="member">Tweets</ref>.Clear();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>tweet<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>tweets)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" kindref="member">Tweets</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref>(tweet.CreatedBy,<sp/>tweet.CreatedAt,<sp/>tweet.FullText));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ObservableCollection&lt;TweetModel&gt;<sp/><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" kindref="member">Tweets</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TweetsAnalyser/Model/TweetServiceModel.cs"/>
+  </compounddef>
+</doxygen>

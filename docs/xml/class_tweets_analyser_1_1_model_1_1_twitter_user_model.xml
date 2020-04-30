@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_model_1_1_twitter_user_model" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::Model::TwitterUserModel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1ad69313e1dbd35522591b63c33ca0c071" prot="private" static="no" mutable="no">
+        <type>Tweetinvi.Models.IAuthenticatedUser</type>
+        <definition>Tweetinvi.Models.IAuthenticatedUser TweetsAnalyser.Model.TwitterUserModel._twitterUser</definition>
+        <argsstring></argsstring>
+        <name>_twitterUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="10" column="51" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a31b80820d2dbdb2122ec9e475b22e71d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.Model.TwitterUserModel.ProfileName</definition>
+        <argsstring></argsstring>
+        <name>ProfileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Profile name getter, return user profile name.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="27" column="23" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a0ac6459d239f9f10208a709e1d3880b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.Model.TwitterUserModel.ProfileImageURL</definition>
+        <argsstring></argsstring>
+        <name>ProfileImageURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Profile image URL getter, return user profile image URL.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="35" column="23" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a91430a79c703ac69d37c63c3dbda6031" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kindref="compound">TweetServiceModel</ref></type>
+        <definition>TweetServiceModel TweetsAnalyser.Model.TwitterUserModel.TweetService</definition>
+        <argsstring></argsstring>
+        <name>TweetService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TwitterServiceModel getter, return TwitterServiceModel instance.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="43" column="34" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a7cfb72abbd3c4b49c917f3a84ab5f13b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.Model.TwitterUserModel.TwitterUserModel</definition>
+        <argsstring>()</argsstring>
+        <name>TwitterUserModel</name>
+        <briefdescription>
+<para>Nonparametric constructor. Performs user authentication. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Create instance of user and instance og <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kindref="compound">TweetServiceModel</ref>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="16" column="16" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="16" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that supports a twitter user. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/TwitterUserModel.cs" line="8" column="5" bodyfile="TweetsAnalyser/Model/TwitterUserModel.cs" bodystart="9" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1ad69313e1dbd35522591b63c33ca0c071" prot="private" virt="non-virtual"><scope>TweetsAnalyser::Model::TwitterUserModel</scope><name>_twitterUser</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a0ac6459d239f9f10208a709e1d3880b9" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TwitterUserModel</scope><name>ProfileImageURL</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a31b80820d2dbdb2122ec9e475b22e71d" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TwitterUserModel</scope><name>ProfileName</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a91430a79c703ac69d37c63c3dbda6031" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TwitterUserModel</scope><name>TweetService</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model_1a7cfb72abbd3c4b49c917f3a84ab5f13b" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TwitterUserModel</scope><name>TwitterUserModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

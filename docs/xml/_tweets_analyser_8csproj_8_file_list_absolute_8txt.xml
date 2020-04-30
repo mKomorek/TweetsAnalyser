@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_tweets_analyser_8csproj_8_file_list_absolute_8txt" kind="file" language="C++">
+    <compoundname>TweetsAnalyser.csproj.FileListAbsolute.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.exe</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.deps.json</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.runtimeconfig.json</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.runtimeconfig.dev.json</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.dll</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyser.pdb</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Autofac.dll</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\EntityFramework.dll</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Context.dll</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Tasks.dll</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Nito.Disposables.dll</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Controllers.dll</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Core.dll</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Credentials.dll</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Factories.dll</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Logic.dll</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Security.dll</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.Streams.dll</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.WebLogic.dll</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\Tweetinvi.dll</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\View\UserNotFoundDialog.g.cs</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\App.g.cs</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser_MarkupCompile.cache</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser_MarkupCompile.lref</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\App.baml</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\View\MainWindow.baml</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\View\TweetsView.baml</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\View\UserNotFoundDialog.baml</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.g.resources</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.csproj.CoreCompileInputs.cache</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.AssemblyInfoInputs.cache</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.AssemblyInfo.cs</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.csproj.CopyComplete</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.dll</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.pdb</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\obj\Debug\netcoreapp3.1\TweetsAnalyser.genruntimeconfig.cache</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetsAnalyser\bin\Debug\netcoreapp3.1\TweetsAnalyserDocumentation.xml</highlight></codeline>
+    </programlisting>
+    <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/TweetsAnalyser.csproj.FileListAbsolute.txt"/>
+  </compounddef>
+</doxygen>

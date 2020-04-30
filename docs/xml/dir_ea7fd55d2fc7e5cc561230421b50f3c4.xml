@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_ea7fd55d2fc7e5cc561230421b50f3c4" kind="dir">
+    <compoundname>TweetsAnalyser</compoundname>
+    <innerdir refid="dir_5d8fa96013b128fd6b00966a6832a3c8">TweetsAnalyser/Model</innerdir>
+    <innerdir refid="dir_77c561e75f243d3337ef4b25572b8e2c">TweetsAnalyser/obj</innerdir>
+    <innerdir refid="dir_4fcee4ccd8dea910928fdfd0b5f647de">TweetsAnalyser/Properties</innerdir>
+    <innerdir refid="dir_42baadc4029efe8499c053b55afb4d5f">TweetsAnalyser/View</innerdir>
+    <innerdir refid="dir_e699f289acfc665efaa53cc550d60c05">TweetsAnalyser/ViewModel</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/"/>
+  </compounddef>
+</doxygen>

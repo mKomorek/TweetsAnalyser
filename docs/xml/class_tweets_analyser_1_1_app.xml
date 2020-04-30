@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_app_1a9379a89150f9578e4e8d7f8afcd8285d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TweetsAnalyser.App::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" line="44" column="22" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_app_1ae48aa12235e4741d71f534682b68d59f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" line="51" column="21" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" bodystart="51" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_app_1ae48aa12235e4741d71f534682b68d59f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.i.cs" line="51" column="21" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.i.cs" bodystart="51" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_app_1a7f17d4da395916f52d4737d2e41685ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TweetsAnalyser.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" line="77" column="28" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_app_1a7f17d4da395916f52d4737d2e41685ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TweetsAnalyser.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.i.cs" line="77" column="28" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/App.g.i.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_tweets_analyser_1_1_app" kindref="compound">App</ref></para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.App</label>
+        <link refid="class_tweets_analyser_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.App</label>
+        <link refid="class_tweets_analyser_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TweetsAnalyser/App.xaml.cs" line="14" column="19" bodyfile="TweetsAnalyser/App.xaml.cs" bodystart="15" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_app_1a9379a89150f9578e4e8d7f8afcd8285d" prot="private" virt="non-virtual"><scope>TweetsAnalyser::App</scope><name>_contentLoaded</name></member>
+      <member refid="class_tweets_analyser_1_1_app_1ae48aa12235e4741d71f534682b68d59f" prot="public" virt="non-virtual"><scope>TweetsAnalyser::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_tweets_analyser_1_1_app_1ae48aa12235e4741d71f534682b68d59f" prot="public" virt="non-virtual"><scope>TweetsAnalyser::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_tweets_analyser_1_1_app_1a7f17d4da395916f52d4737d2e41685ca" prot="public" virt="non-virtual"><scope>TweetsAnalyser::App</scope><name>Main</name></member>
+      <member refid="class_tweets_analyser_1_1_app_1a7f17d4da395916f52d4737d2e41685ca" prot="public" virt="non-virtual"><scope>TweetsAnalyser::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::ViewModel::MainWindowViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a5ca33ea09f5f23e31744312e24733726" prot="public" static="no" mutable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model" kindref="compound">TwitterUserModel</ref></type>
+        <definition>TwitterUserModel TweetsAnalyser.ViewModel.MainWindowViewModel.twitterUser</definition>
+        <argsstring></argsstring>
+        <name>twitterUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="18" column="33" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1afd71f6b0179e3d183effdf69ca505f78" prot="public" static="no" mutable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model" kindref="compound">DataBaseServiceModel</ref></type>
+        <definition>DataBaseServiceModel TweetsAnalyser.ViewModel.MainWindowViewModel.dataBaseService</definition>
+        <argsstring></argsstring>
+        <name>dataBaseService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="19" column="37" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a6aa48ca241277c5e8c54e9dc02387542" prot="private" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;TweetModel&gt; TweetsAnalyser.ViewModel.MainWindowViewModel.tweetCollection</definition>
+        <argsstring></argsstring>
+        <name>tweetCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="20" column="38" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a0de8a95a5a2f07e086e8da69cc0b460f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel._userToSearch</definition>
+        <argsstring></argsstring>
+        <name>_userToSearch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="21" column="24" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1aa0ffbbcf87eeb43063fc6c955da0f1dd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel.deleteAddButtonContent</definition>
+        <argsstring></argsstring>
+        <name>deleteAddButtonContent</name>
+        <initializer>= &quot;Zapisz Tweeta&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="21" column="38" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ad759538a57b210fe32d042838284575c" prot="private" static="no" mutable="no">
+        <type>Visibility</type>
+        <definition>Visibility TweetsAnalyser.ViewModel.MainWindowViewModel.userPanelVisibility</definition>
+        <argsstring></argsstring>
+        <name>userPanelVisibility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="23" column="28" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1adba739845e2092a3b33176e2af5a62fb" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler TweetsAnalyser.ViewModel.MainWindowViewModel.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="22" column="50" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ab4af54a77256a100643074e93129e8bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel.TwitterUser_ProfileName</definition>
+        <argsstring></argsstring>
+        <name>TwitterUser_ProfileName</name>
+        <briefdescription>
+<para>Gets logged user&apos; profile name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="41" column="23" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ab7f5ce06b853c539166fd0f6749e4378" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel.TwitterUser_ProfileImage_URL</definition>
+        <argsstring></argsstring>
+        <name>TwitterUser_ProfileImage_URL</name>
+        <briefdescription>
+<para>Gets logged user&apos; profile image url. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="49" column="23" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae57418c3b651033e67918a3edd86c65c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref></type>
+        <definition>TweetModel TweetsAnalyser.ViewModel.MainWindowViewModel.SelectedTweet</definition>
+        <argsstring></argsstring>
+        <name>SelectedTweet</name>
+        <briefdescription>
+<para>Sets the SelectedTweet property to TweetModel object which is currently selected in the ListBox tweet scroller. Please refer the View/MainWindow.xaml/MainListBox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="58" column="27" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af2e1fd9864ee600f343e227fcd33641b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Visibility</type>
+        <definition>Visibility TweetsAnalyser.ViewModel.MainWindowViewModel.User_Panel_Visibility</definition>
+        <argsstring></argsstring>
+        <name>User_Panel_Visibility</name>
+        <briefdescription>
+<para>Sets and gets the visibility property of TweetSearch stack pannel. Please refer the View/MainWindow.xaml/TweetSearch. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="64" column="27" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ac006934bc0b9f6676c11cfea4f35cc18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel.User_To_Search</definition>
+        <argsstring></argsstring>
+        <name>User_To_Search</name>
+        <briefdescription>
+<para>Sets and gets the username of user which&apos; timeline should be downloaded via API. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="73" column="23" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a34688996d1a158f705de1c91809c6729" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;TweetModel&gt; TweetsAnalyser.ViewModel.MainWindowViewModel.Tweet_Collection</definition>
+        <argsstring></argsstring>
+        <name>Tweet_Collection</name>
+        <briefdescription>
+<para>Sets and gets the main tweet collection. This is the collection which is displayed in the app. It holds currently downloaded tweets. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="83" column="37" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae254d20f5d91a9065856483f34c01b2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand TweetsAnalyser.ViewModel.MainWindowViewModel.AddDeleteDB</definition>
+        <argsstring></argsstring>
+        <name>AddDeleteDB</name>
+        <briefdescription>
+<para>Depending on actual app mode (downloaded or saved tweets display mode) returns proper function to bind the add/del multi-functional button to. If <computeroutput>DeleteAddButtonContent</computeroutput> is set to &apos;Zapisz Tweeta&apos; we are in downloaded tweets dispaly mode -&gt; we can add some of them to DB. Thats why AddToDBButton function in returned. Similarly in saved tweets mode. Please refer the View/MainWindow.xaml/MultiButton. <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a9152f7cf3d14ef5bea086daa898c3bc8" kindref="member">DeleteAddButtonContent</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1aa58c8cb4e64e71755d1143f35a31a499" kindref="member">AddToDBButton</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a55c3bfb8e4cd4c4eb5e5d8f2903b34c2" kindref="member">DeleteFromDBButton</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" kindref="compound">CommandHandler</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="104" column="25" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="105" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a024691833f9d0bd0b24b8e3abd85f13a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand TweetsAnalyser.ViewModel.MainWindowViewModel.Search_Button_Click</definition>
+        <argsstring></argsstring>
+        <name>Search_Button_Click</name>
+        <briefdescription>
+<para>Binds SearchButton to proper function. Please refer the View/MainWindow.xaml/SearchButton. <ref refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" kindref="compound">CommandHandler</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a4fa8b9c515acde1fd30e29a70f981299" kindref="member">SearchButton</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="125" column="25" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af8661508f04dab8ad4e9e8ba4a49fe4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand TweetsAnalyser.ViewModel.MainWindowViewModel.Go_To_Tweets_Button_Click</definition>
+        <argsstring></argsstring>
+        <name>Go_To_Tweets_Button_Click</name>
+        <briefdescription>
+<para>Binds DownloadedModeButton to proper function. Please refer the View/MainWindow.xaml/DownloadedModeButton. <ref refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" kindref="compound">CommandHandler</ref> GoToTweetsButton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="136" column="25" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a51cf224c9702827cce5d6b83711c9f40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand TweetsAnalyser.ViewModel.MainWindowViewModel.Go_To_Save_Button_Click</definition>
+        <argsstring></argsstring>
+        <name>Go_To_Save_Button_Click</name>
+        <briefdescription>
+<para>Binds SavedModeButton to proper function. Please refer the View/MainWindow.xaml/SavedModeButton. <ref refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" kindref="compound">CommandHandler</ref> GoToSavedButton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="147" column="25" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="148" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ac0dd95d5be6c2130c22856fdc55bf721" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand TweetsAnalyser.ViewModel.MainWindowViewModel.OwnTimeline_Button_Click</definition>
+        <argsstring></argsstring>
+        <name>OwnTimeline_Button_Click</name>
+        <briefdescription>
+<para>Binds DownloadOwnButton to proper function. Please refer the View/MainWindow.xaml/DownloadOwnButton. <ref refid="class_tweets_analyser_1_1_view_model_1_1_command_handler" kindref="compound">CommandHandler</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1afafc6acaa900bd03af63ba00ed29e7fe" kindref="member">OwnTimelineButton</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="158" column="25" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="159" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a9152f7cf3d14ef5bea086daa898c3bc8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.ViewModel.MainWindowViewModel.DeleteAddButtonContent</definition>
+        <argsstring></argsstring>
+        <name>DeleteAddButtonContent</name>
+        <briefdescription>
+<para>Gets and sets the content of MultiButton. Please refer the View/MainWindow.xaml/MultiButton. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="225" column="23" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a5edd2f1f7d061569a2f5d409deeb0406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.ViewModel.MainWindowViewModel.MainWindowViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindowViewModel</name>
+        <briefdescription>
+<para>Setup main services =&gt; Twitter&apos; API and EntityFramework&apos; DB. Sets the default scroll page to PWr_Wroclaw&apos; timeline. (scroll page always shows the content of <computeroutput>tweetCollection</computeroutput> member) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="30" column="16" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a4fa8b9c515acde1fd30e29a70f981299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.SearchButton</definition>
+        <argsstring>()</argsstring>
+        <name>SearchButton</name>
+        <briefdescription>
+<para>Tries to pull and save <computeroutput>User_To_Serach</computeroutput> timeline from API. If any exception is thrown error dialog pops up. <ref refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog" kindref="compound">View.UserNotFoundDialog</ref> <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a07b9bd7a5a14b6381314001de1d5afd3" kindref="member">Model.TweetServiceModel.setUserTimeLineTweets(string)</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="169" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="169" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1afafc6acaa900bd03af63ba00ed29e7fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.OwnTimelineButton</definition>
+        <argsstring>()</argsstring>
+        <name>OwnTimelineButton</name>
+        <briefdescription>
+<para>Pulls and saves logged user&apos; own timeline from API. <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a07b9bd7a5a14b6381314001de1d5afd3" kindref="member">Model.TweetServiceModel.setUserTimeLineTweets(string)</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="187" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1aa58c8cb4e64e71755d1143f35a31a499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.AddToDBButton</definition>
+        <argsstring>()</argsstring>
+        <name>AddToDBButton</name>
+        <briefdescription>
+<para>Adds TweetModel object to database. This object is get from SelectedTweet property. Method checks if property is not empty first. <ref refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a6d1158403b4fe215ed76f5857c94b113" kindref="member">Model.DataBaseServiceModel.add(TweetModel)</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae57418c3b651033e67918a3edd86c65c" kindref="member">SelectedTweet</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="198" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="198" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a55c3bfb8e4cd4c4eb5e5d8f2903b34c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.DeleteFromDBButton</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteFromDBButton</name>
+        <briefdescription>
+<para>Deletes TweetModel object from database. This object is get from SelectedTweet property. Method checks if property is not empty first. <ref refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1af4fe9c27f02532d2d540f021f6ea0d85" kindref="member">Model.DataBaseServiceModel.remove(TweetModel)</ref> <ref refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae57418c3b651033e67918a3edd86c65c" kindref="member">SelectedTweet</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="212" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="212" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a9c1028f8c8d5a4c5be805f665634853a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.GoToSavedButton</definition>
+        <argsstring>()</argsstring>
+        <name>GoToSavedButton</name>
+        <briefdescription>
+<para>Triggers the mode change to saved tweets mode. It swaps the donwloaded tweets with the DB ones and updates the MulitButton content. It also changes the visibility of TweetSearch stack pannel. Please refer the View/MainWindow.xaml/TweetSearch. Please refer the View/MainWindow.xaml/MultiButton. <ref refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a1270521ed6ae5c5822ba7c1ccf2dd622" kindref="member">Model.DataBaseServiceModel.getAllFavoriteTweets</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="239" column="22" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="239" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a3965e84fdce343f123bbf683b25ec86d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.GoToTweetsButton</definition>
+        <argsstring>()</argsstring>
+        <name>GoToTweetsButton</name>
+        <briefdescription>
+<para>Triggers the mode change to downloaded tweets mode. It swaps the DB tweets with the downloaded ones and updates the MulitButton content. It also changes the visibility of TweetSearch stack pannel. Please refer the View/MainWindow.xaml/TweetSearch. Please refer the View/MainWindow.xaml/MultiButton. <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kindref="compound">Model.TweetServiceModel</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="254" column="22" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="254" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af0380b84c4125f9bc3e878a667675fae" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.MainWindowViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the property-changed event. Every interested party will be notified. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="267" column="24" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="267" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_tweets_analyser_1_1_view_model" kindref="compound">ViewModel</ref> of a <ref refid="class_tweets_analyser_1_1_main_window" kindref="compound">MainWindow</ref> <ref refid="namespace_tweets_analyser_1_1_view" kindref="compound">View</ref>. This is one and only <ref refid="namespace_tweets_analyser_1_1_view_model" kindref="compound">ViewModel</ref> in the app. Contains all methods which serve the <ref refid="namespace_tweets_analyser_1_1_view" kindref="compound">View</ref> =&gt; from buttons, to visibility changes. Implements INotifyPropertyChanged interface to make property updates available. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.ViewModel.MainWindowViewModel</label>
+        <link refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>TweetsAnalyser.Model.DataBaseServiceModel</label>
+        <link refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model"/>
+      </node>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>TweetsAnalyser.Model.TwitterUserModel</label>
+        <link refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model"/>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.ViewModel.MainWindowViewModel</label>
+        <link refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>twitterUser</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>dataBaseService</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="16" column="5" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="17" bodyend="271"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a0de8a95a5a2f07e086e8da69cc0b460f" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>_userToSearch</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae254d20f5d91a9065856483f34c01b2b" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>AddDeleteDB</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1aa58c8cb4e64e71755d1143f35a31a499" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>AddToDBButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1afd71f6b0179e3d183effdf69ca505f78" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>dataBaseService</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a9152f7cf3d14ef5bea086daa898c3bc8" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>DeleteAddButtonContent</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1aa0ffbbcf87eeb43063fc6c955da0f1dd" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>deleteAddButtonContent</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a55c3bfb8e4cd4c4eb5e5d8f2903b34c2" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>DeleteFromDBButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a51cf224c9702827cce5d6b83711c9f40" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>Go_To_Save_Button_Click</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af8661508f04dab8ad4e9e8ba4a49fe4c" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>Go_To_Tweets_Button_Click</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a9c1028f8c8d5a4c5be805f665634853a" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>GoToSavedButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a3965e84fdce343f123bbf683b25ec86d" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>GoToTweetsButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a5edd2f1f7d061569a2f5d409deeb0406" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>MainWindowViewModel</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af0380b84c4125f9bc3e878a667675fae" prot="protected" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ac0dd95d5be6c2130c22856fdc55bf721" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>OwnTimeline_Button_Click</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1afafc6acaa900bd03af63ba00ed29e7fe" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>OwnTimelineButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1adba739845e2092a3b33176e2af5a62fb" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a024691833f9d0bd0b24b8e3abd85f13a" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>Search_Button_Click</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a4fa8b9c515acde1fd30e29a70f981299" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>SearchButton</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ae57418c3b651033e67918a3edd86c65c" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>SelectedTweet</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a34688996d1a158f705de1c91809c6729" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>Tweet_Collection</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a6aa48ca241277c5e8c54e9dc02387542" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>tweetCollection</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1a5ca33ea09f5f23e31744312e24733726" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>twitterUser</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ab7f5ce06b853c539166fd0f6749e4378" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>TwitterUser_ProfileImage_URL</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ab4af54a77256a100643074e93129e8bf" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>TwitterUser_ProfileName</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1af2e1fd9864ee600f343e227fcd33641b" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>User_Panel_Visibility</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ac006934bc0b9f6676c11cfea4f35cc18" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>User_To_Search</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_1ad759538a57b210fe32d042838284575c" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::MainWindowViewModel</scope><name>userPanelVisibility</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

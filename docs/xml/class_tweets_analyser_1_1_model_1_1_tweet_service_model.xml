@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::Model::TweetServiceModel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a3462e1667052adfaa7d5f48f80cbc76f" prot="private" static="no" mutable="no">
+        <type>Tweetinvi.Models.IAuthenticatedUser</type>
+        <definition>Tweetinvi.Models.IAuthenticatedUser TweetsAnalyser.Model.TweetServiceModel._twitterUser</definition>
+        <argsstring></argsstring>
+        <name>_twitterUser</name>
+        <briefdescription>
+<para>A private object that stores information about the currently logged in user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="15" column="51" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;TweetModel&gt; TweetsAnalyser.Model.TweetServiceModel.Tweets</definition>
+        <argsstring></argsstring>
+        <name>Tweets</name>
+        <briefdescription>
+<para>Returns a list of tweets </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="67" column="37" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1afa849f3f4d490e2a7e0d2c0451fe100b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.Model.TweetServiceModel.TweetServiceModel</definition>
+        <argsstring>(Tweetinvi.Models.IAuthenticatedUser twitterUser)</argsstring>
+        <name>TweetServiceModel</name>
+        <param>
+          <type>Tweetinvi.Models.IAuthenticatedUser</type>
+          <declname>twitterUser</declname>
+        </param>
+        <briefdescription>
+<para>The parametric constructor initializes components with the values given as function arguments and create object that contain tweets. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>twitterUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="22" column="16" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a8370e74ed9f9440cb92609a9d6c909d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.TweetServiceModel.setHomeTimeLineTweets</definition>
+        <argsstring>()</argsstring>
+        <name>setHomeTimeLineTweets</name>
+        <briefdescription>
+<para>The method retrieves 30 last tweets from the logged-in user&apos;s table from twitter Twitter service and assigns them to a private class variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="32" column="21" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a07b9bd7a5a14b6381314001de1d5afd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.TweetServiceModel.setUserTimeLineTweets</definition>
+        <argsstring>(string userName)</argsstring>
+        <name>setUserTimeLineTweets</name>
+        <param>
+          <type>string</type>
+          <declname>userName</declname>
+        </param>
+        <briefdescription>
+<para>The method retrieves the last 30 tweets from the profile specified in the function argument and assigns them to a private class variable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="43" column="21" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1aa3201ced040b6d01a4eb820fe09c781d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.TweetServiceModel.setTweetList</definition>
+        <argsstring>(IEnumerable&lt; Tweetinvi.Models.ITweet &gt; tweets)</argsstring>
+        <name>setTweetList</name>
+        <param>
+          <type>IEnumerable&lt; Tweetinvi.Models.ITweet &gt;</type>
+          <declname>tweets</declname>
+        </param>
+        <briefdescription>
+<para>the method adds to the private variable of the class all elements included in the list given as the function argument. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tweets</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="55" column="22" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that supports tweet management. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/TweetServiceModel.cs" line="10" column="11" bodyfile="TweetsAnalyser/Model/TweetServiceModel.cs" bodystart="11" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a3462e1667052adfaa7d5f48f80cbc76f" prot="private" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>_twitterUser</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a8370e74ed9f9440cb92609a9d6c909d0" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>setHomeTimeLineTweets</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1aa3201ced040b6d01a4eb820fe09c781d" prot="private" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>setTweetList</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a07b9bd7a5a14b6381314001de1d5afd3" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>setUserTimeLineTweets</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1a63c9f72dcaa4753d687ef11f8161dcfb" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>Tweets</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model_1afa849f3f4d490e2a7e0d2c0451fe100b" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetServiceModel</scope><name>TweetServiceModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

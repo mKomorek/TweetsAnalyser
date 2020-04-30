@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_tweets_analyser_1_1_view" kind="namespace" language="C#">
+    <compoundname>TweetsAnalyser::View</compoundname>
+    <innerclass refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog" prot="public">TweetsAnalyser::View::UserNotFoundDialog</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" line="36" column="1"/>
+  </compounddef>
+</doxygen>

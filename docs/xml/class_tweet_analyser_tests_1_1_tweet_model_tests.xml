@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweet_analyser_tests_1_1_tweet_model_tests" kind="class" language="C#" prot="public">
+    <compoundname>TweetAnalyserTests::TweetModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweet_analyser_tests_1_1_tweet_model_tests_1a9b046b90d8461ca488456894aa1d6319" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref></type>
+        <definition>TweetModel TweetAnalyserTests.TweetModelTests._tweetModel</definition>
+        <argsstring></argsstring>
+        <name>_tweetModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetModelTest.cs" line="9" column="28" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_model_tests_1ae87fa028632eac024eedf03868c61b09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetModelTests.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetModelTest.cs" line="12" column="21" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_model_tests_1afa85ba41fba26d7968daad13ac8f2845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetModelTests.TweetPublishedDate_getter_test</definition>
+        <argsstring>()</argsstring>
+        <name>TweetPublishedDate_getter_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetModelTest.cs" line="21" column="21" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_model_tests_1ac6537eaa35049776a079988074f0831b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetModelTests.TweetFullString_getter_test</definition>
+        <argsstring>()</argsstring>
+        <name>TweetFullString_getter_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetModelTest.cs" line="27" column="21" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_model_tests_1a8c0c1ef55a1959094991a7852baf9b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetModelTests.TweetAuthorImageURl_getter_test</definition>
+        <argsstring>()</argsstring>
+        <name>TweetAuthorImageURl_getter_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetModelTest.cs" line="33" column="21" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetAnalyserTests/TweetModelTest.cs" line="7" column="11" bodyfile="TweetAnalyserTests/TweetModelTest.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_model_tests_1a9b046b90d8461ca488456894aa1d6319" prot="private" virt="non-virtual"><scope>TweetAnalyserTests::TweetModelTests</scope><name>_tweetModel</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_model_tests_1ae87fa028632eac024eedf03868c61b09" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetModelTests</scope><name>Setup</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_model_tests_1a8c0c1ef55a1959094991a7852baf9b89" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetModelTests</scope><name>TweetAuthorImageURl_getter_test</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_model_tests_1ac6537eaa35049776a079988074f0831b" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetModelTests</scope><name>TweetFullString_getter_test</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_model_tests_1afa85ba41fba26d7968daad13ac8f2845" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetModelTests</scope><name>TweetPublishedDate_getter_test</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

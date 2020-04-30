@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_tweet_analyser_tests" kind="namespace" language="C#">
+    <compoundname>TweetAnalyserTests</compoundname>
+    <innerclass refid="class_tweet_analyser_tests_1_1_tweet_model_tests" prot="public">TweetAnalyserTests::TweetModelTests</innerclass>
+    <innerclass refid="class_tweet_analyser_tests_1_1_tweet_service_test" prot="public">TweetAnalyserTests::TweetServiceTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetAnalyserTests/TweetModelTest.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

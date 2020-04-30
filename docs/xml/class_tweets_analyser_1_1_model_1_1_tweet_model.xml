@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_model_1_1_tweet_model" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::Model::TweetModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a82a2bf1c40e935e36fc2fc6094e944d4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int TweetsAnalyser.Model.TweetModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Tweet ID getter and setter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="32" column="20" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a2ce56d42e1ebbdae1ed7e173d61e9e99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Tweetinvi.Models.IUser</type>
+        <definition>Tweetinvi.Models.IUser TweetsAnalyser.Model.TweetModel.TweetAuthor</definition>
+        <argsstring></argsstring>
+        <name>TweetAuthor</name>
+        <briefdescription>
+<para>Tweet author getter and setter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="37" column="37" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a8158bf3e13daa2814ff321385bc7969c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime TweetsAnalyser.Model.TweetModel.TweetPublishedDate</definition>
+        <argsstring></argsstring>
+        <name>TweetPublishedDate</name>
+        <briefdescription>
+<para>Tweet published date getter and setter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="42" column="25" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a89bc51bf00851fa16a43eaec77a22712" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.Model.TweetModel.TweetFullString</definition>
+        <argsstring></argsstring>
+        <name>TweetFullString</name>
+        <briefdescription>
+<para>Tweet full text getter and setter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="47" column="23" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a82c05aeb4d660a94373514cf8f75d912" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TweetsAnalyser.Model.TweetModel.TweetAuthorImageURL</definition>
+        <argsstring></argsstring>
+        <name>TweetAuthorImageURL</name>
+        <briefdescription>
+<para>Tweet author image URL getter and setter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="52" column="23" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1aa65143be7bcc1315b181bcb3eff6edb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.Model.TweetModel.TweetModel</definition>
+        <argsstring>()</argsstring>
+        <name>TweetModel</name>
+        <briefdescription>
+<para>Nonparametric constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="13" column="16" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_tweet_model_1a949cb292018c14bdb274d054ad4a88dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.Model.TweetModel.TweetModel</definition>
+        <argsstring>(Tweetinvi.Models.IUser tweetAuthor, DateTime tweetPublishedDate, string tweetFullText)</argsstring>
+        <name>TweetModel</name>
+        <param>
+          <type>Tweetinvi.Models.IUser</type>
+          <declname>tweetAuthor</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>tweetPublishedDate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tweetFullText</declname>
+        </param>
+        <briefdescription>
+<para>The parametric constructor initializes components with the values given as function arguments. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tweetAuthor</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tweetPublishedDate</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tweetFullText</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/TweetModel.cs" line="21" column="16" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that supports a single tweet. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/TweetModel.cs" line="8" column="11" bodyfile="TweetsAnalyser/Model/TweetModel.cs" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a82a2bf1c40e935e36fc2fc6094e944d4" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>Id</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a2ce56d42e1ebbdae1ed7e173d61e9e99" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetAuthor</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a82c05aeb4d660a94373514cf8f75d912" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetAuthorImageURL</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a89bc51bf00851fa16a43eaec77a22712" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetFullString</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1aa65143be7bcc1315b181bcb3eff6edb8" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetModel</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a949cb292018c14bdb274d054ad4a88dc" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetModel</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_tweet_model_1a8158bf3e13daa2814ff321385bc7969c" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::TweetModel</scope><name>TweetPublishedDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

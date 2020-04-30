@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_model_1_1_data_base_service_model" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::Model::DataBaseServiceModel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1aa7af9c6b3668466c6e758ec4847c29b2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_data_base_model" kindref="compound">DataBaseModel</ref></type>
+        <definition>DataBaseModel TweetsAnalyser.Model.DataBaseServiceModel._dataBaseModel</definition>
+        <argsstring></argsstring>
+        <name>_dataBaseModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="10" column="31" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a4787a3e2769fbea47fe2a2bce5499b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.Model.DataBaseServiceModel.DataBaseServiceModel</definition>
+        <argsstring>()</argsstring>
+        <name>DataBaseServiceModel</name>
+        <briefdescription>
+<para>A constructor who creates a new dbcontext to support the database. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="15" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a6d1158403b4fe215ed76f5857c94b113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.DataBaseServiceModel.add</definition>
+        <argsstring>(TweetModel tweet)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref></type>
+          <declname>tweet</declname>
+        </param>
+        <briefdescription>
+<para>Adds the elements given as an argument to the database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tweet</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="21" column="21" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1af4fe9c27f02532d2d540f021f6ea0d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.DataBaseServiceModel.remove</definition>
+        <argsstring>(TweetModel tweet)</argsstring>
+        <name>remove</name>
+        <param>
+          <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref></type>
+          <declname>tweet</declname>
+        </param>
+        <briefdescription>
+<para>Removes the element supplied as an argument from the database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tweet</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="31" column="21" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a35ae332b1a877a95649cd6f1096e3cd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.Model.DataBaseServiceModel.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>Removes all items from the database. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="40" column="21" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a1270521ed6ae5c5822ba7c1ccf2dd622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ObservableCollection&lt; <ref refid="class_tweets_analyser_1_1_model_1_1_tweet_model" kindref="compound">TweetModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;TweetModel&gt; TweetsAnalyser.Model.DataBaseServiceModel.getAllFavoriteTweets</definition>
+        <argsstring>()</argsstring>
+        <name>getAllFavoriteTweets</name>
+        <briefdescription>
+<para>Retrieves all saved tweets from the database and returns a collection of objects </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="49" column="37" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="49" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The class enables database management. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/DataBaseServiceModel.cs" line="8" column="5" bodyfile="TweetsAnalyser/Model/DataBaseServiceModel.cs" bodystart="9" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1aa7af9c6b3668466c6e758ec4847c29b2" prot="private" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>_dataBaseModel</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a6d1158403b4fe215ed76f5857c94b113" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>add</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a35ae332b1a877a95649cd6f1096e3cd4" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>clear</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a4787a3e2769fbea47fe2a2bce5499b01" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>DataBaseServiceModel</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1a1270521ed6ae5c5822ba7c1ccf2dd622" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>getAllFavoriteTweets</name></member>
+      <member refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model_1af4fe9c27f02532d2d540f021f6ea0d85" prot="public" virt="non-virtual"><scope>TweetsAnalyser::Model::DataBaseServiceModel</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

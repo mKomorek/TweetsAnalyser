@@ -1,0 +1,293 @@
+\hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model}{}\doxysection{Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model Class Reference}
+\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model}\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+
+
+\mbox{\hyperlink{namespace_tweets_analyser_1_1_view_model}{View\+Model}} of a \mbox{\hyperlink{class_tweets_analyser_1_1_main_window}{Main\+Window}} \mbox{\hyperlink{namespace_tweets_analyser_1_1_view}{View}}. This is one and only \mbox{\hyperlink{namespace_tweets_analyser_1_1_view_model}{View\+Model}} in the app. Contains all methods which serve the \mbox{\hyperlink{namespace_tweets_analyser_1_1_view}{View}} =$>$ from buttons, to visibility changes. Implements I\+Notify\+Property\+Changed interface to make property updates available.  
+
+
+Inheritance diagram for Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5edd2f1f7d061569a2f5d409deeb0406}{Main\+Window\+View\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Setup main services =$>$ Twitter\textquotesingle{} A\+PI and Entity\+Framework\textquotesingle{} DB. Sets the default scroll page to P\+Wr\+\_\+\+Wroclaw\textquotesingle{} timeline. (scroll page always shows the content of {\ttfamily tweet\+Collection} member) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a4fa8b9c515acde1fd30e29a70f981299}{Search\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Tries to pull and save {\ttfamily User\+\_\+\+To\+\_\+\+Serach} timeline from A\+PI. If any exception is thrown error dialog pops up. \mbox{\hyperlink{class_tweets_analyser_1_1_view_1_1_user_not_found_dialog}{View.\+User\+Not\+Found\+Dialog}} \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_service_model_a07b9bd7a5a14b6381314001de1d5afd3}{Model.\+Tweet\+Service\+Model.\+set\+User\+Time\+Line\+Tweets(string)}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afafc6acaa900bd03af63ba00ed29e7fe}{Own\+Timeline\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Pulls and saves logged user\textquotesingle{} own timeline from A\+PI. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_service_model_a07b9bd7a5a14b6381314001de1d5afd3}{Model.\+Tweet\+Service\+Model.\+set\+User\+Time\+Line\+Tweets(string)}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_aa58c8cb4e64e71755d1143f35a31a499}{Add\+To\+D\+B\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Adds Tweet\+Model object to database. This object is get from Selected\+Tweet property. Method checks if property is not empty first. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a6d1158403b4fe215ed76f5857c94b113}{Model.\+Data\+Base\+Service\+Model.\+add(\+Tweet\+Model)}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}{Selected\+Tweet}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a55c3bfb8e4cd4c4eb5e5d8f2903b34c2}{Delete\+From\+D\+B\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Deletes Tweet\+Model object from database. This object is get from Selected\+Tweet property. Method checks if property is not empty first. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_af4fe9c27f02532d2d540f021f6ea0d85}{Model.\+Data\+Base\+Service\+Model.\+remove(\+Tweet\+Model)}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}{Selected\+Tweet}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_twitter_user_model}{Twitter\+User\+Model}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5ca33ea09f5f23e31744312e24733726}{twitter\+User}}
+\item 
+\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model}{Data\+Base\+Service\+Model}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afd71f6b0179e3d183effdf69ca505f78}{data\+Base\+Service}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af0380b84c4125f9bc3e878a667675fae}{On\+Property\+Changed}} (string property\+Name)
+\begin{DoxyCompactList}\small\item\em Triggers the property-\/changed event. Every interested party will be notified. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab4af54a77256a100643074e93129e8bf}{Twitter\+User\+\_\+\+Profile\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets logged user\textquotesingle{} profile name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab7f5ce06b853c539166fd0f6749e4378}{Twitter\+User\+\_\+\+Profile\+Image\+\_\+\+U\+RL}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets logged user\textquotesingle{} profile image url. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}{Selected\+Tweet}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets the Selected\+Tweet property to Tweet\+Model object which is currently selected in the List\+Box tweet scroller. Please refer the View/\+Main\+Window.\+xaml/\+Main\+List\+Box. \end{DoxyCompactList}\item 
+Visibility \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af2e1fd9864ee600f343e227fcd33641b}{User\+\_\+\+Panel\+\_\+\+Visibility}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets and gets the visibility property of Tweet\+Search stack pannel. Please refer the View/\+Main\+Window.\+xaml/\+Tweet\+Search. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac006934bc0b9f6676c11cfea4f35cc18}{User\+\_\+\+To\+\_\+\+Search}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets and gets the username of user which\textquotesingle{} timeline should be downloaded via A\+PI. \end{DoxyCompactList}\item 
+Observable\+Collection$<$ \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} $>$ \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a34688996d1a158f705de1c91809c6729}{Tweet\+\_\+\+Collection}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets and gets the main tweet collection. This is the collection which is displayed in the app. It holds currently downloaded tweets. \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae254d20f5d91a9065856483f34c01b2b}{Add\+Delete\+DB}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Depending on actual app mode (downloaded or saved tweets display mode) returns proper function to bind the add/del multi-\/functional button to. If {\ttfamily Delete\+Add\+Button\+Content} is set to \textquotesingle{}Zapisz Tweeta\textquotesingle{} we are in downloaded tweets dispaly mode -\/$>$ we can add some of them to DB. Thats why Add\+To\+D\+B\+Button function in returned. Similarly in saved tweets mode. Please refer the View/\+Main\+Window.\+xaml/\+Multi\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a9152f7cf3d14ef5bea086daa898c3bc8}{Delete\+Add\+Button\+Content}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_aa58c8cb4e64e71755d1143f35a31a499}{Add\+To\+D\+B\+Button}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a55c3bfb8e4cd4c4eb5e5d8f2903b34c2}{Delete\+From\+D\+B\+Button}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a024691833f9d0bd0b24b8e3abd85f13a}{Search\+\_\+\+Button\+\_\+\+Click}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Binds Search\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Search\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a4fa8b9c515acde1fd30e29a70f981299}{Search\+Button}} \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af8661508f04dab8ad4e9e8ba4a49fe4c}{Go\+\_\+\+To\+\_\+\+Tweets\+\_\+\+Button\+\_\+\+Click}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Binds Downloaded\+Mode\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Downloaded\+Mode\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} Go\+To\+Tweets\+Button \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a51cf224c9702827cce5d6b83711c9f40}{Go\+\_\+\+To\+\_\+\+Save\+\_\+\+Button\+\_\+\+Click}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Binds Saved\+Mode\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Saved\+Mode\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} Go\+To\+Saved\+Button \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac0dd95d5be6c2130c22856fdc55bf721}{Own\+Timeline\+\_\+\+Button\+\_\+\+Click}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Binds Download\+Own\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Download\+Own\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afafc6acaa900bd03af63ba00ed29e7fe}{Own\+Timeline\+Button}} \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a9152f7cf3d14ef5bea086daa898c3bc8}{Delete\+Add\+Button\+Content}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets and sets the content of Multi\+Button. Please refer the View/\+Main\+Window.\+xaml/\+Multi\+Button. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Property\+Changed\+Event\+Handler \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_adba739845e2092a3b33176e2af5a62fb}{Property\+Changed}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{namespace_tweets_analyser_1_1_view_model}{View\+Model}} of a \mbox{\hyperlink{class_tweets_analyser_1_1_main_window}{Main\+Window}} \mbox{\hyperlink{namespace_tweets_analyser_1_1_view}{View}}. This is one and only \mbox{\hyperlink{namespace_tweets_analyser_1_1_view_model}{View\+Model}} in the app. Contains all methods which serve the \mbox{\hyperlink{namespace_tweets_analyser_1_1_view}{View}} =$>$ from buttons, to visibility changes. Implements I\+Notify\+Property\+Changed interface to make property updates available. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5edd2f1f7d061569a2f5d409deeb0406}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5edd2f1f7d061569a2f5d409deeb0406}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!MainWindowViewModel@{MainWindowViewModel}}
+\index{MainWindowViewModel@{MainWindowViewModel}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{MainWindowViewModel()}{MainWindowViewModel()}}
+{\footnotesize\ttfamily Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Main\+Window\+View\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Setup main services =$>$ Twitter\textquotesingle{} A\+PI and Entity\+Framework\textquotesingle{} DB. Sets the default scroll page to P\+Wr\+\_\+\+Wroclaw\textquotesingle{} timeline. (scroll page always shows the content of {\ttfamily tweet\+Collection} member) 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_aa58c8cb4e64e71755d1143f35a31a499}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_aa58c8cb4e64e71755d1143f35a31a499}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!AddToDBButton@{AddToDBButton}}
+\index{AddToDBButton@{AddToDBButton}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{AddToDBButton()}{AddToDBButton()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Add\+To\+D\+B\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Adds Tweet\+Model object to database. This object is get from Selected\+Tweet property. Method checks if property is not empty first. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_a6d1158403b4fe215ed76f5857c94b113}{Model.\+Data\+Base\+Service\+Model.\+add(\+Tweet\+Model)}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}{Selected\+Tweet}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a55c3bfb8e4cd4c4eb5e5d8f2903b34c2}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a55c3bfb8e4cd4c4eb5e5d8f2903b34c2}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!DeleteFromDBButton@{DeleteFromDBButton}}
+\index{DeleteFromDBButton@{DeleteFromDBButton}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{DeleteFromDBButton()}{DeleteFromDBButton()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Delete\+From\+D\+B\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Deletes Tweet\+Model object from database. This object is get from Selected\+Tweet property. Method checks if property is not empty first. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model_af4fe9c27f02532d2d540f021f6ea0d85}{Model.\+Data\+Base\+Service\+Model.\+remove(\+Tweet\+Model)}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}{Selected\+Tweet}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af0380b84c4125f9bc3e878a667675fae}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af0380b84c4125f9bc3e878a667675fae}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!OnPropertyChanged@{OnPropertyChanged}}
+\index{OnPropertyChanged@{OnPropertyChanged}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{OnPropertyChanged()}{OnPropertyChanged()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+On\+Property\+Changed (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Triggers the property-\/changed event. Every interested party will be notified. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afafc6acaa900bd03af63ba00ed29e7fe}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afafc6acaa900bd03af63ba00ed29e7fe}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!OwnTimelineButton@{OwnTimelineButton}}
+\index{OwnTimelineButton@{OwnTimelineButton}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{OwnTimelineButton()}{OwnTimelineButton()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Own\+Timeline\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pulls and saves logged user\textquotesingle{} own timeline from A\+PI. \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_service_model_a07b9bd7a5a14b6381314001de1d5afd3}{Model.\+Tweet\+Service\+Model.\+set\+User\+Time\+Line\+Tweets(string)}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a4fa8b9c515acde1fd30e29a70f981299}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a4fa8b9c515acde1fd30e29a70f981299}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!SearchButton@{SearchButton}}
+\index{SearchButton@{SearchButton}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{SearchButton()}{SearchButton()}}
+{\footnotesize\ttfamily void Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Search\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tries to pull and save {\ttfamily User\+\_\+\+To\+\_\+\+Serach} timeline from A\+PI. If any exception is thrown error dialog pops up. \mbox{\hyperlink{class_tweets_analyser_1_1_view_1_1_user_not_found_dialog}{View.\+User\+Not\+Found\+Dialog}} \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_service_model_a07b9bd7a5a14b6381314001de1d5afd3}{Model.\+Tweet\+Service\+Model.\+set\+User\+Time\+Line\+Tweets(string)}} 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afd71f6b0179e3d183effdf69ca505f78}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afd71f6b0179e3d183effdf69ca505f78}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!dataBaseService@{dataBaseService}}
+\index{dataBaseService@{dataBaseService}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{dataBaseService}{dataBaseService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_data_base_service_model}{Data\+Base\+Service\+Model}} Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+data\+Base\+Service}
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5ca33ea09f5f23e31744312e24733726}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a5ca33ea09f5f23e31744312e24733726}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!twitterUser@{twitterUser}}
+\index{twitterUser@{twitterUser}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{twitterUser}{twitterUser}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_twitter_user_model}{Twitter\+User\+Model}} Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+twitter\+User}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae254d20f5d91a9065856483f34c01b2b}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae254d20f5d91a9065856483f34c01b2b}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!AddDeleteDB@{AddDeleteDB}}
+\index{AddDeleteDB@{AddDeleteDB}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{AddDeleteDB}{AddDeleteDB}}
+{\footnotesize\ttfamily I\+Command Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Add\+Delete\+DB\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Depending on actual app mode (downloaded or saved tweets display mode) returns proper function to bind the add/del multi-\/functional button to. If {\ttfamily Delete\+Add\+Button\+Content} is set to \textquotesingle{}Zapisz Tweeta\textquotesingle{} we are in downloaded tweets dispaly mode -\/$>$ we can add some of them to DB. Thats why Add\+To\+D\+B\+Button function in returned. Similarly in saved tweets mode. Please refer the View/\+Main\+Window.\+xaml/\+Multi\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a9152f7cf3d14ef5bea086daa898c3bc8}{Delete\+Add\+Button\+Content}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_aa58c8cb4e64e71755d1143f35a31a499}{Add\+To\+D\+B\+Button}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a55c3bfb8e4cd4c4eb5e5d8f2903b34c2}{Delete\+From\+D\+B\+Button}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a9152f7cf3d14ef5bea086daa898c3bc8}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a9152f7cf3d14ef5bea086daa898c3bc8}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!DeleteAddButtonContent@{DeleteAddButtonContent}}
+\index{DeleteAddButtonContent@{DeleteAddButtonContent}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{DeleteAddButtonContent}{DeleteAddButtonContent}}
+{\footnotesize\ttfamily string Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Delete\+Add\+Button\+Content\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets and sets the content of Multi\+Button. Please refer the View/\+Main\+Window.\+xaml/\+Multi\+Button. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a51cf224c9702827cce5d6b83711c9f40}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a51cf224c9702827cce5d6b83711c9f40}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!Go\_To\_Save\_Button\_Click@{Go\_To\_Save\_Button\_Click}}
+\index{Go\_To\_Save\_Button\_Click@{Go\_To\_Save\_Button\_Click}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{Go\_To\_Save\_Button\_Click}{Go\_To\_Save\_Button\_Click}}
+{\footnotesize\ttfamily I\+Command Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Go\+\_\+\+To\+\_\+\+Save\+\_\+\+Button\+\_\+\+Click\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Binds Saved\+Mode\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Saved\+Mode\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} Go\+To\+Saved\+Button 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af8661508f04dab8ad4e9e8ba4a49fe4c}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af8661508f04dab8ad4e9e8ba4a49fe4c}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!Go\_To\_Tweets\_Button\_Click@{Go\_To\_Tweets\_Button\_Click}}
+\index{Go\_To\_Tweets\_Button\_Click@{Go\_To\_Tweets\_Button\_Click}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{Go\_To\_Tweets\_Button\_Click}{Go\_To\_Tweets\_Button\_Click}}
+{\footnotesize\ttfamily I\+Command Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Go\+\_\+\+To\+\_\+\+Tweets\+\_\+\+Button\+\_\+\+Click\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Binds Downloaded\+Mode\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Downloaded\+Mode\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} Go\+To\+Tweets\+Button 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac0dd95d5be6c2130c22856fdc55bf721}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac0dd95d5be6c2130c22856fdc55bf721}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!OwnTimeline\_Button\_Click@{OwnTimeline\_Button\_Click}}
+\index{OwnTimeline\_Button\_Click@{OwnTimeline\_Button\_Click}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{OwnTimeline\_Button\_Click}{OwnTimeline\_Button\_Click}}
+{\footnotesize\ttfamily I\+Command Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Own\+Timeline\+\_\+\+Button\+\_\+\+Click\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Binds Download\+Own\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Download\+Own\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_afafc6acaa900bd03af63ba00ed29e7fe}{Own\+Timeline\+Button}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a024691833f9d0bd0b24b8e3abd85f13a}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a024691833f9d0bd0b24b8e3abd85f13a}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!Search\_Button\_Click@{Search\_Button\_Click}}
+\index{Search\_Button\_Click@{Search\_Button\_Click}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{Search\_Button\_Click}{Search\_Button\_Click}}
+{\footnotesize\ttfamily I\+Command Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Search\+\_\+\+Button\+\_\+\+Click\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Binds Search\+Button to proper function. Please refer the View/\+Main\+Window.\+xaml/\+Search\+Button. \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_command_handler}{Command\+Handler}} \mbox{\hyperlink{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a4fa8b9c515acde1fd30e29a70f981299}{Search\+Button}} 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ae57418c3b651033e67918a3edd86c65c}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!SelectedTweet@{SelectedTweet}}
+\index{SelectedTweet@{SelectedTweet}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{SelectedTweet}{SelectedTweet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}} Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Selected\+Tweet\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Sets the Selected\+Tweet property to Tweet\+Model object which is currently selected in the List\+Box tweet scroller. Please refer the View/\+Main\+Window.\+xaml/\+Main\+List\+Box. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a34688996d1a158f705de1c91809c6729}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_a34688996d1a158f705de1c91809c6729}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!Tweet\_Collection@{Tweet\_Collection}}
+\index{Tweet\_Collection@{Tweet\_Collection}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{Tweet\_Collection}{Tweet\_Collection}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{class_tweets_analyser_1_1_model_1_1_tweet_model}{Tweet\+Model}}$>$ Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Tweet\+\_\+\+Collection\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Sets and gets the main tweet collection. This is the collection which is displayed in the app. It holds currently downloaded tweets. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab7f5ce06b853c539166fd0f6749e4378}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab7f5ce06b853c539166fd0f6749e4378}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!TwitterUser\_ProfileImage\_URL@{TwitterUser\_ProfileImage\_URL}}
+\index{TwitterUser\_ProfileImage\_URL@{TwitterUser\_ProfileImage\_URL}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{TwitterUser\_ProfileImage\_URL}{TwitterUser\_ProfileImage\_URL}}
+{\footnotesize\ttfamily string Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Twitter\+User\+\_\+\+Profile\+Image\+\_\+\+U\+RL\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets logged user\textquotesingle{} profile image url. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab4af54a77256a100643074e93129e8bf}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ab4af54a77256a100643074e93129e8bf}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!TwitterUser\_ProfileName@{TwitterUser\_ProfileName}}
+\index{TwitterUser\_ProfileName@{TwitterUser\_ProfileName}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{TwitterUser\_ProfileName}{TwitterUser\_ProfileName}}
+{\footnotesize\ttfamily string Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Twitter\+User\+\_\+\+Profile\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets logged user\textquotesingle{} profile name. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af2e1fd9864ee600f343e227fcd33641b}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_af2e1fd9864ee600f343e227fcd33641b}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!User\_Panel\_Visibility@{User\_Panel\_Visibility}}
+\index{User\_Panel\_Visibility@{User\_Panel\_Visibility}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{User\_Panel\_Visibility}{User\_Panel\_Visibility}}
+{\footnotesize\ttfamily Visibility Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+User\+\_\+\+Panel\+\_\+\+Visibility\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Sets and gets the visibility property of Tweet\+Search stack pannel. Please refer the View/\+Main\+Window.\+xaml/\+Tweet\+Search. 
+
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac006934bc0b9f6676c11cfea4f35cc18}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_ac006934bc0b9f6676c11cfea4f35cc18}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!User\_To\_Search@{User\_To\_Search}}
+\index{User\_To\_Search@{User\_To\_Search}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{User\_To\_Search}{User\_To\_Search}}
+{\footnotesize\ttfamily string Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+User\+\_\+\+To\+\_\+\+Search\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Sets and gets the username of user which\textquotesingle{} timeline should be downloaded via A\+PI. 
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_adba739845e2092a3b33176e2af5a62fb}\label{class_tweets_analyser_1_1_view_model_1_1_main_window_view_model_adba739845e2092a3b33176e2af5a62fb}} 
+\index{TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}!PropertyChanged@{PropertyChanged}}
+\index{PropertyChanged@{PropertyChanged}!TweetsAnalyser.ViewModel.MainWindowViewModel@{TweetsAnalyser.ViewModel.MainWindowViewModel}}
+\doxysubsubsection{\texorpdfstring{PropertyChanged}{PropertyChanged}}
+{\footnotesize\ttfamily Property\+Changed\+Event\+Handler Tweets\+Analyser.\+View\+Model.\+Main\+Window\+View\+Model.\+Property\+Changed}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Tweets\+Analyser/\+View\+Model/\mbox{\hyperlink{_main_window_view_model_8cs}{Main\+Window\+View\+Model.\+cs}}\end{DoxyCompactItemize}

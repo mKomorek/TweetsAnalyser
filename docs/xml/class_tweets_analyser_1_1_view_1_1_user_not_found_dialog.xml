@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::View::UserNotFoundDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1afff56a086995c269cb5e4f3f67272e90" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TweetsAnalyser.View.UserNotFoundDialog::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" line="44" column="22" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a15837c336959d1134f20fdc033348820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.View.UserNotFoundDialog.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" line="51" column="21" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a15837c336959d1134f20fdc033348820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.View.UserNotFoundDialog.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.i.cs" line="51" column="21" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.i.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1aa9bef13de1c4f2cb7070f35e407b0d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.View.UserNotFoundDialog.UserNotFoundDialog</definition>
+        <argsstring>()</argsstring>
+        <name>UserNotFoundDialog</name>
+        <briefdescription>
+<para>Initalizes the window (forces it to appear on the screen). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" line="15" column="16" bodyfile="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a95458e095a317b2f486b5ff77b2118ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. TweetsAnalyser.View.UserNotFoundDialog.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" line="71" column="52" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" bodystart="71" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a95458e095a317b2f486b5ff77b2118ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. TweetsAnalyser.View.UserNotFoundDialog.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.i.cs" line="71" column="52" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.i.cs" bodystart="71" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1ab941d6e606b9e5341b3ce29f4c437ee8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.View.UserNotFoundDialog.Close_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Close_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Method which is wired to OK button. It is closing the window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" line="23" column="22" bodyfile="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a005ee4544c04004e0e8d72666954de4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.View.UserNotFoundDialog.Window_KeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>Window_KeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Method which is wired to the dialog&apos; keydown event. If enter key was hit then the dialog will be closed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" line="32" column="22" bodyfile="TweetsAnalyser/View/UserNotFoundDialog.xaml.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog" kindref="compound">UserNotFoundDialog</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a simple logic class for <ref refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog" kindref="compound">UserNotFoundDialog</ref> window. This is barely used since its just an error dialog AND we are using MVVM design pattern.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.View.UserNotFoundDialog</label>
+        <link refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.View.UserNotFoundDialog</label>
+        <link refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" line="42" column="19" bodyfile="TweetsAnalyser/obj/Debug/netcoreapp3.1/View/UserNotFoundDialog.g.cs" bodystart="42" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1afff56a086995c269cb5e4f3f67272e90" prot="private" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>_contentLoaded</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1ab941d6e606b9e5341b3ce29f4c437ee8" prot="private" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>Close_Click</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a95458e095a317b2f486b5ff77b2118ce" prot="private" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>Connect</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a95458e095a317b2f486b5ff77b2118ce" prot="private" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>Connect</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a15837c336959d1134f20fdc033348820" prot="public" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>InitializeComponent</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a15837c336959d1134f20fdc033348820" prot="public" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>InitializeComponent</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1aa9bef13de1c4f2cb7070f35e407b0d5d" prot="public" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>UserNotFoundDialog</name></member>
+      <member refid="class_tweets_analyser_1_1_view_1_1_user_not_found_dialog_1a005ee4544c04004e0e8d72666954de4c" prot="private" virt="non-virtual"><scope>TweetsAnalyser::View::UserNotFoundDialog</scope><name>Window_KeyDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_tweet_analyser_tests_8csproj_8_file_list_absolute_8txt" kind="file" language="C++">
+    <compoundname>TweetAnalyserTests.csproj.FileListAbsolute.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.csproj.CoreCompileInputs.cache</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.AssemblyInfoInputs.cache</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.AssemblyInfo.cs</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetsAnalyser.exe</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\nunit.engine.dll</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetAnalyserTests.deps.json</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetAnalyserTests.runtimeconfig.json</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetAnalyserTests.runtimeconfig.dev.json</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetAnalyserTests.dll</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetAnalyserTests.pdb</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Autofac.dll</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Castle.Core.dll</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\EntityFramework.dll</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\testhost.dll</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Moq.dll</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Context.dll</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Tasks.dll</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Nito.Disposables.dll</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\nunit.framework.dll</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Controllers.dll</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Core.dll</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Credentials.dll</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Factories.dll</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Logic.dll</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Security.dll</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.Streams.dll</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.WebLogic.dll</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\Tweetinvi.dll</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetsAnalyser.dll</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\bin\Debug\netcoreapp3.1\TweetsAnalyser.pdb</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.csproj.CopyComplete</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.dll</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.pdb</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">C:\Users\Olek\source\repos\TweetsAnalyser2\TweetAnalyserTests\obj\Debug\netcoreapp3.1\TweetAnalyserTests.genruntimeconfig.cache</highlight></codeline>
+    </programlisting>
+    <location file="TweetAnalyserTests/obj/Debug/netcoreapp3.1/TweetAnalyserTests.csproj.FileListAbsolute.txt"/>
+  </compounddef>
+</doxygen>

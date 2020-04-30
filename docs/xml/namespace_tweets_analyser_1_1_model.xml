@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_tweets_analyser_1_1_model" kind="namespace" language="C#">
+    <compoundname>TweetsAnalyser::Model</compoundname>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_data_base_model" prot="public">TweetsAnalyser::Model::DataBaseModel</innerclass>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_data_base_service_model" prot="public">TweetsAnalyser::Model::DataBaseServiceModel</innerclass>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_tweet_model" prot="public">TweetsAnalyser::Model::TweetModel</innerclass>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" prot="public">TweetsAnalyser::Model::TweetServiceModel</innerclass>
+    <innerclass refid="class_tweets_analyser_1_1_model_1_1_twitter_user_model" prot="public">TweetsAnalyser::Model::TwitterUserModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetsAnalyser/Model/DataBaseModel.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

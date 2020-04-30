@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweets_analyser_1_1_view_model_1_1_command_handler" kind="class" language="C#" prot="public">
+    <compoundname>TweetsAnalyser::ViewModel::CommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ICommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a125b519c77f730e243b53e0d54ac3770" prot="private" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action TweetsAnalyser.ViewModel.CommandHandler._action</definition>
+        <argsstring></argsstring>
+        <name>_action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="278" column="24" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1ae28b98749f40f180d84b87f623c741c2" prot="private" static="no" mutable="no">
+        <type>Func&lt; bool &gt;</type>
+        <definition>Func&lt;bool&gt; TweetsAnalyser.ViewModel.CommandHandler._canExecute</definition>
+        <argsstring></argsstring>
+        <name>_canExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="279" column="22" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a1dbc7b152726944dddc1012996ce3a13" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>EventHandler</type>
+        <definition>EventHandler TweetsAnalyser.ViewModel.CommandHandler.CanExecuteChanged</definition>
+        <argsstring></argsstring>
+        <name>CanExecuteChanged</name>
+        <briefdescription>
+<para>Wires CanExecuteChanged event. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="295" column="35" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="296" bodyend="299"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a983d2be0ac0bff0ef53a0f13c38b7f65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TweetsAnalyser.ViewModel.CommandHandler.CommandHandler</definition>
+        <argsstring>(Action action, Func&lt; bool &gt; canExecute)</argsstring>
+        <name>CommandHandler</name>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>canExecute</declname>
+        </param>
+        <briefdescription>
+<para>Creates instance of the command handler. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Action to be executed by the command</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>canExecute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bolean property to containing current permissions to execute the command</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="286" column="16" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a43197a25719ee304eac073c408174cec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TweetsAnalyser.ViewModel.CommandHandler.CanExecute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>CanExecute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Forces checking if execute is allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="304" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a1cf1038ad1173ae5ac2b5e9b85c1efe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetsAnalyser.ViewModel.CommandHandler.Execute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Overloaded ICommand function. Defines which command should be executed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="313" column="21" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="313" bodyend="316"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simple ICommand interface wrapper. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ICommand</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.ViewModel.CommandHandler</label>
+        <link refid="class_tweets_analyser_1_1_view_model_1_1_command_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ICommand</label>
+      </node>
+      <node id="1">
+        <label>TweetsAnalyser.ViewModel.CommandHandler</label>
+        <link refid="class_tweets_analyser_1_1_view_model_1_1_command_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" line="276" column="11" bodyfile="TweetsAnalyser/ViewModel/MainWindowViewModel.cs" bodystart="277" bodyend="317"/>
+    <listofallmembers>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a125b519c77f730e243b53e0d54ac3770" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>_action</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1ae28b98749f40f180d84b87f623c741c2" prot="private" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>_canExecute</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a43197a25719ee304eac073c408174cec" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>CanExecute</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a1dbc7b152726944dddc1012996ce3a13" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>CanExecuteChanged</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a983d2be0ac0bff0ef53a0f13c38b7f65" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>CommandHandler</name></member>
+      <member refid="class_tweets_analyser_1_1_view_model_1_1_command_handler_1a1cf1038ad1173ae5ac2b5e9b85c1efe2" prot="public" virt="non-virtual"><scope>TweetsAnalyser::ViewModel::CommandHandler</scope><name>Execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_tweet_analyser_tests_1_1_tweet_service_test" kind="class" language="C#" prot="public">
+    <compoundname>TweetAnalyserTests::TweetServiceTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tweet_analyser_tests_1_1_tweet_service_test_1a3c1ce46d13cfb83fc6a163f0dec84964" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tweets_analyser_1_1_model_1_1_tweet_service_model" kindref="compound">TweetServiceModel</ref></type>
+        <definition>TweetServiceModel TweetAnalyserTests.TweetServiceTest._tweetServiceModel</definition>
+        <argsstring></argsstring>
+        <name>_tweetServiceModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetServiceTest.cs" line="10" column="35" bodyfile="TweetAnalyserTests/TweetServiceTest.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_service_test_1a92485be55d18e3e1e485a7d191c1ff8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetServiceTest.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetServiceTest.cs" line="13" column="21" bodyfile="TweetAnalyserTests/TweetServiceTest.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tweet_analyser_tests_1_1_tweet_service_test_1af90628d36ae81050292002294cb07121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TweetAnalyserTests.TweetServiceTest.TweetModel_setters_getters_test</definition>
+        <argsstring>()</argsstring>
+        <name>TweetModel_setters_getters_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TweetAnalyserTests/TweetServiceTest.cs" line="21" column="21" bodyfile="TweetAnalyserTests/TweetServiceTest.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TweetAnalyserTests/TweetServiceTest.cs" line="8" column="5" bodyfile="TweetAnalyserTests/TweetServiceTest.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_service_test_1a3c1ce46d13cfb83fc6a163f0dec84964" prot="private" virt="non-virtual"><scope>TweetAnalyserTests::TweetServiceTest</scope><name>_tweetServiceModel</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_service_test_1a92485be55d18e3e1e485a7d191c1ff8e" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetServiceTest</scope><name>Setup</name></member>
+      <member refid="class_tweet_analyser_tests_1_1_tweet_service_test_1af90628d36ae81050292002294cb07121" prot="public" virt="non-virtual"><scope>TweetAnalyserTests::TweetServiceTest</scope><name>TweetModel_setters_getters_test</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
